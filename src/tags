@@ -1,0 +1,861 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFLEN	sys_tree.cpp	28;"	d	file:
+CFLAGS_FINAL	db_dump/Makefile	/^CFLAGS_FINAL=${CFLAGS} -I.. -I..\/..\/lib -I..\/..$/;"	m
+DB_CHUNK_CFG	persist.h	24;"	d
+DB_CHUNK_CLIENT	persist.h	29;"	d
+DB_CHUNK_CLIENT_MSG	persist.h	26;"	d
+DB_CHUNK_MSG_STORE	persist.h	25;"	d
+DB_CHUNK_RETAIN	persist.h	27;"	d
+DB_CHUNK_SUB	persist.h	28;"	d
+DECLTYPE	deps/uthash.h	37;"	d
+DECLTYPE	deps/uthash.h	40;"	d
+DECLTYPE	deps/uthash.h	43;"	d
+DECLTYPE_ASSIGN	deps/uthash.h	47;"	d
+DECLTYPE_ASSIGN	deps/uthash.h	53;"	d
+DEMO_PROTOCOL_COUNT	websockets.cpp	/^	DEMO_PROTOCOL_COUNT$/;"	e	enum:mosq_ws_protocols	file:
+ELMT_FROM_HH	deps/uthash.h	92;"	d
+FUNC_auth_plugin_acl_check_v2	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_acl_check_v2)(void *, const char *, const char *, const char *, int);$/;"	t
+FUNC_auth_plugin_acl_check_v3	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_acl_check_v3)(void *, int, const struct mosquitto *, struct mosquitto_acl_msg *);$/;"	t
+FUNC_auth_plugin_cleanup_v2	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_cleanup_v2)(void *, struct mosquitto_auth_opt *, int);$/;"	t
+FUNC_auth_plugin_cleanup_v3	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_cleanup_v3)(void *, struct mosquitto_opt *, int);$/;"	t
+FUNC_auth_plugin_init_v2	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_init_v2)(void **, struct mosquitto_auth_opt *, int);$/;"	t
+FUNC_auth_plugin_init_v3	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_init_v3)(void **, struct mosquitto_opt *, int);$/;"	t
+FUNC_auth_plugin_psk_key_get_v2	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_psk_key_get_v2)(void *, const char *, const char *, char *, int);$/;"	t
+FUNC_auth_plugin_psk_key_get_v3	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_psk_key_get_v3)(void *, const struct mosquitto *, const char *, const char *, char *, int);$/;"	t
+FUNC_auth_plugin_security_cleanup_v2	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_security_cleanup_v2)(void *, struct mosquitto_auth_opt *, int, bool);$/;"	t
+FUNC_auth_plugin_security_cleanup_v3	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_security_cleanup_v3)(void *, struct mosquitto_opt *, int, bool);$/;"	t
+FUNC_auth_plugin_security_init_v2	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_security_init_v2)(void *, struct mosquitto_auth_opt *, int, bool);$/;"	t
+FUNC_auth_plugin_security_init_v3	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_security_init_v3)(void *, struct mosquitto_opt *, int, bool);$/;"	t
+FUNC_auth_plugin_unpwd_check_v2	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_unpwd_check_v2)(void *, const char *, const char *);$/;"	t
+FUNC_auth_plugin_unpwd_check_v3	mosquitto_broker_internal.h	/^typedef int (*FUNC_auth_plugin_unpwd_check_v3)(void *, const struct mosquitto *, const char *, const char *);$/;"	t
+FUNC_auth_plugin_version	security.cpp	/^typedef int (*FUNC_auth_plugin_version)(void);$/;"	t	file:
+G_BYTES_RECEIVED_INC	sys_tree.h	34;"	d
+G_BYTES_RECEIVED_INC	sys_tree.h	49;"	d
+G_BYTES_SENT_INC	sys_tree.h	35;"	d
+G_BYTES_SENT_INC	sys_tree.h	50;"	d
+G_CLIENTS_EXPIRED_INC	sys_tree.h	43;"	d
+G_CLIENTS_EXPIRED_INC	sys_tree.h	58;"	d
+G_CONNECTION_COUNT_INC	sys_tree.h	45;"	d
+G_CONNECTION_COUNT_INC	sys_tree.h	60;"	d
+G_MSGS_DROPPED_INC	sys_tree.h	42;"	d
+G_MSGS_DROPPED_INC	sys_tree.h	57;"	d
+G_MSGS_RECEIVED_INC	sys_tree.h	38;"	d
+G_MSGS_RECEIVED_INC	sys_tree.h	53;"	d
+G_MSGS_SENT_INC	sys_tree.h	39;"	d
+G_MSGS_SENT_INC	sys_tree.h	54;"	d
+G_PUB_BYTES_RECEIVED_INC	sys_tree.h	36;"	d
+G_PUB_BYTES_RECEIVED_INC	sys_tree.h	51;"	d
+G_PUB_BYTES_SENT_INC	sys_tree.h	37;"	d
+G_PUB_BYTES_SENT_INC	sys_tree.h	52;"	d
+G_PUB_MSGS_RECEIVED_INC	sys_tree.h	40;"	d
+G_PUB_MSGS_RECEIVED_INC	sys_tree.h	55;"	d
+G_PUB_MSGS_SENT_INC	sys_tree.h	41;"	d
+G_PUB_MSGS_SENT_INC	sys_tree.h	56;"	d
+G_SOCKET_CONNECTIONS_INC	sys_tree.h	44;"	d
+G_SOCKET_CONNECTIONS_INC	sys_tree.h	59;"	d
+HASH_ADD	deps/uthash.h	160;"	d
+HASH_ADD_INT	deps/uthash.h	260;"	d
+HASH_ADD_KEYPTR	deps/uthash.h	173;"	d
+HASH_ADD_PTR	deps/uthash.h	266;"	d
+HASH_ADD_STR	deps/uthash.h	254;"	d
+HASH_ADD_TO_BKT	deps/uthash.h	611;"	d
+HASH_BER	deps/uthash.h	355;"	d
+HASH_BKT_CAPACITY_THRESH	deps/uthash.h	89;"	d
+HASH_BLOOM_ADD	deps/uthash.h	127;"	d
+HASH_BLOOM_ADD	deps/uthash.h	136;"	d
+HASH_BLOOM_BITLEN	deps/uthash.h	108;"	d
+HASH_BLOOM_BITSET	deps/uthash.h	124;"	d
+HASH_BLOOM_BITTEST	deps/uthash.h	125;"	d
+HASH_BLOOM_BYTELEN	deps/uthash.h	109;"	d
+HASH_BLOOM_BYTELEN	deps/uthash.h	138;"	d
+HASH_BLOOM_FREE	deps/uthash.h	119;"	d
+HASH_BLOOM_FREE	deps/uthash.h	135;"	d
+HASH_BLOOM_MAKE	deps/uthash.h	110;"	d
+HASH_BLOOM_MAKE	deps/uthash.h	134;"	d
+HASH_BLOOM_SIGNATURE	deps/uthash.h	902;"	d
+HASH_BLOOM_TEST	deps/uthash.h	130;"	d
+HASH_BLOOM_TEST	deps/uthash.h	137;"	d
+HASH_CLEAR	deps/uthash.h	849;"	d
+HASH_CNT	deps/uthash.h	878;"	d
+HASH_COUNT	deps/uthash.h	877;"	d
+HASH_DEL	deps/uthash.h	270;"	d
+HASH_DELETE	deps/uthash.h	215;"	d
+HASH_DEL_IN_BKT	deps/uthash.h	625;"	d
+HASH_EMIT_KEY	deps/uthash.h	337;"	d
+HASH_EMIT_KEY	deps/uthash.h	344;"	d
+HASH_EXPAND_BUCKETS	deps/uthash.h	666;"	d
+HASH_FCN	deps/uthash.h	349;"	d
+HASH_FCN	deps/uthash.h	351;"	d
+HASH_FIND	deps/uthash.h	94;"	d
+HASH_FIND_INT	deps/uthash.h	258;"	d
+HASH_FIND_IN_BKT	deps/uthash.h	597;"	d
+HASH_FIND_PTR	deps/uthash.h	264;"	d
+HASH_FIND_STR	deps/uthash.h	252;"	d
+HASH_FNV	deps/uthash.h	377;"	d
+HASH_FSCK	deps/uthash.h	278;"	d
+HASH_FSCK	deps/uthash.h	330;"	d
+HASH_INITIAL_NUM_BUCKETS	deps/uthash.h	87;"	d
+HASH_INITIAL_NUM_BUCKETS_LOG2	deps/uthash.h	88;"	d
+HASH_ITER	deps/uthash.h	867;"	d
+HASH_ITER	deps/uthash.h	871;"	d
+HASH_JEN	deps/uthash.h	416;"	d
+HASH_JEN_MIX	deps/uthash.h	403;"	d
+HASH_KEYCMP	deps/uthash.h	594;"	d
+HASH_MAKE_TABLE	deps/uthash.h	141;"	d
+HASH_MUR	deps/uthash.h	554;"	d
+HASH_OAT	deps/uthash.h	387;"	d
+HASH_OOPS	deps/uthash.h	277;"	d
+HASH_OVERHEAD	deps/uthash.h	860;"	d
+HASH_REPLACE	deps/uthash.h	163;"	d
+HASH_REPLACE_INT	deps/uthash.h	262;"	d
+HASH_REPLACE_PTR	deps/uthash.h	268;"	d
+HASH_REPLACE_STR	deps/uthash.h	256;"	d
+HASH_SAX	deps/uthash.h	367;"	d
+HASH_SELECT	deps/uthash.h	811;"	d
+HASH_SFH	deps/uthash.h	468;"	d
+HASH_SIGNATURE	deps/uthash.h	901;"	d
+HASH_SORT	deps/uthash.h	718;"	d
+HASH_SRT	deps/uthash.h	719;"	d
+HASH_TO_BKT	deps/uthash.h	198;"	d
+LIB_CLOSE	lib_load.h	28;"	d
+LIB_CLOSE	lib_load.h	32;"	d
+LIB_ERROR	security.cpp	/^void LIB_ERROR(void)$/;"	f
+LIB_LOAD	lib_load.h	27;"	d
+LIB_LOAD	lib_load.h	31;"	d
+LIB_LOAD_H	lib_load.h	18;"	d
+LIB_SYM	lib_load.h	29;"	d
+LIB_SYM	lib_load.h	33;"	d
+LIB_SYM_EASY	lib_load.h	36;"	d
+MAX_BUFFER_LEN	mosquitto_passwd.cpp	50;"	d	file:
+MAX_EVENTS	loop.cpp	28;"	d	file:
+MOSQUITTO_BROKER_H	mosquitto_broker.h	18;"	d
+MOSQUITTO_BROKER_INTERNAL_H	mosquitto_broker_internal.h	19;"	d
+MOSQUITTO_PLUGIN_H	mosquitto_plugin.h	18;"	d
+MOSQ_ACL_NONE	mosquitto_plugin.h	22;"	d
+MOSQ_ACL_READ	mosquitto_plugin.h	23;"	d
+MOSQ_ACL_SUBSCRIBE	mosquitto_plugin.h	25;"	d
+MOSQ_ACL_WRITE	mosquitto_plugin.h	24;"	d
+MOSQ_AUTH_PLUGIN_VERSION	mosquitto_plugin.h	20;"	d
+MOSQ_DB_VERSION	persist.h	20;"	d
+MOSQ_PAYLOAD_UNION_SIZE	mosquitto_broker_internal.h	118;"	d
+MOSQ_TOPIC_ELEMENT_UNION_SIZE	mosquitto_broker_internal.h	128;"	d
+MQTT3_LOG_ALL	mosquitto_broker_internal.h	69;"	d
+MQTT3_LOG_FILE	mosquitto_broker_internal.h	65;"	d
+MQTT3_LOG_NONE	mosquitto_broker_internal.h	63;"	d
+MQTT3_LOG_STDERR	mosquitto_broker_internal.h	67;"	d
+MQTT3_LOG_STDOUT	mosquitto_broker_internal.h	66;"	d
+MQTT3_LOG_SYSLOG	mosquitto_broker_internal.h	64;"	d
+MQTT3_LOG_TOPIC	mosquitto_broker_internal.h	68;"	d
+MUR_FMIX	deps/uthash.h	545;"	d
+MUR_GETBLOCK	deps/uthash.h	523;"	d
+MUR_GETBLOCK	deps/uthash.h	539;"	d
+MUR_ONE_THREE	deps/uthash.h	533;"	d
+MUR_ONE_THREE	deps/uthash.h	537;"	d
+MUR_PLUS0_ALIGNED	deps/uthash.h	525;"	d
+MUR_PLUS1_ALIGNED	deps/uthash.h	526;"	d
+MUR_PLUS2_ALIGNED	deps/uthash.h	527;"	d
+MUR_PLUS3_ALIGNED	deps/uthash.h	528;"	d
+MUR_ROTL32	deps/uthash.h	544;"	d
+MUR_THREE_ONE	deps/uthash.h	531;"	d
+MUR_THREE_ONE	deps/uthash.h	535;"	d
+MUR_TWO_TWO	deps/uthash.h	532;"	d
+MUR_TWO_TWO	deps/uthash.h	536;"	d
+NO_DECLTYPE	deps/uthash.h	39;"	d
+OBJS	Makefile	/^OBJS=	mosquitto.o \\$/;"	m
+PERSIST_H	persist.h	18;"	d
+PROTOCOL_HTTP	websockets.cpp	/^	PROTOCOL_HTTP = 0,$/;"	e	enum:mosq_ws_protocols	file:
+PROTOCOL_MQTT	websockets.cpp	/^	PROTOCOL_MQTT,$/;"	e	enum:mosq_ws_protocols	file:
+SALT_LEN	mosquitto_passwd.cpp	51;"	d	file:
+SYS_TREE_H	sys_tree.h	18;"	d
+SYS_TREE_QOS	sys_tree.cpp	30;"	d	file:
+SigThreadProc	signals.cpp	/^DWORD WINAPI SigThreadProc(void* data)$/;"	f
+UHPA_ACCESS	uhpa.h	156;"	d
+UHPA_ACCESS	uhpa.h	161;"	d
+UHPA_ACCESS_CHK	uhpa.h	137;"	d
+UHPA_ACCESS_PAYLOAD	mosquitto_broker_internal.h	124;"	d
+UHPA_ACCESS_STR	uhpa.h	167;"	d
+UHPA_ACCESS_TOPIC	mosquitto_broker_internal.h	134;"	d
+UHPA_ALLOC	uhpa.h	155;"	d
+UHPA_ALLOC	uhpa.h	160;"	d
+UHPA_ALLOC_CHK	uhpa.h	132;"	d
+UHPA_ALLOC_PAYLOAD	mosquitto_broker_internal.h	123;"	d
+UHPA_ALLOC_STR	uhpa.h	166;"	d
+UHPA_ALLOC_TOPIC	mosquitto_broker_internal.h	133;"	d
+UHPA_FREE	uhpa.h	157;"	d
+UHPA_FREE	uhpa.h	162;"	d
+UHPA_FREE_CHK	uhpa.h	139;"	d
+UHPA_FREE_PAYLOAD	mosquitto_broker_internal.h	125;"	d
+UHPA_FREE_STR	uhpa.h	168;"	d
+UHPA_FREE_TOPIC	mosquitto_broker_internal.h	135;"	d
+UHPA_H	uhpa.h	17;"	d
+UHPA_MOVE	uhpa.h	158;"	d
+UHPA_MOVE	uhpa.h	163;"	d
+UHPA_MOVE_CHK	uhpa.h	145;"	d
+UHPA_MOVE_PAYLOAD	mosquitto_broker_internal.h	126;"	d
+UHPA_MOVE_STR	uhpa.h	169;"	d
+UHPA_MOVE_TOPIC	mosquitto_broker_internal.h	136;"	d
+UTHASH_H	deps/uthash.h	25;"	d
+UTHASH_VERSION	deps/uthash.h	67;"	d
+UT_hash_bucket	deps/uthash.h	/^typedef struct UT_hash_bucket {$/;"	s
+UT_hash_bucket	deps/uthash.h	/^} UT_hash_bucket;$/;"	t	typeref:struct:UT_hash_bucket
+UT_hash_handle	deps/uthash.h	/^typedef struct UT_hash_handle {$/;"	s
+UT_hash_handle	deps/uthash.h	/^} UT_hash_handle;$/;"	t	typeref:struct:UT_hash_handle
+UT_hash_table	deps/uthash.h	/^typedef struct UT_hash_table {$/;"	s
+UT_hash_table	deps/uthash.h	/^} UT_hash_table;$/;"	t	typeref:struct:UT_hash_table
+WEBSOCKET_CLIENT	mosquitto_broker_internal.h	71;"	d
+WP	deps/uthash.h	529;"	d
+WinMain	mosquitto.cpp	/^int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)$/;"	f
+_GNU_SOURCE	loop.cpp	21;"	d	file:
+__attribute__	mosquitto_broker_internal.h	59;"	d
+_mosquitto_free	db_dump/db_dump.cpp	35;"	d	file:
+_mosquitto_malloc	db_dump/db_dump.cpp	34;"	d	file:
+access	mosquitto_broker_internal.h	/^	int access;$/;"	m	struct:mosquitto__acl
+acl	mosquitto_broker_internal.h	/^	struct mosquitto__acl *acl;$/;"	m	struct:mosquitto__acl_user	typeref:struct:mosquitto__acl_user::mosquitto__acl
+acl__check_single	security.cpp	/^static int acl__check_single(struct mosquitto__auth_plugin_config *auth_plugin, struct mosquitto *context, struct mosquitto_acl_msg *msg, int access)$/;"	f	file:
+acl__cleanup	security_default.cpp	/^static int acl__cleanup(struct mosquitto_db *db, bool reload)$/;"	f	file:
+acl__cleanup_single	security_default.cpp	/^static void acl__cleanup_single(struct mosquitto__security_options *security_opts)$/;"	f	file:
+acl_check_v2	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_acl_check_v2 acl_check_v2;$/;"	m	struct:mosquitto__auth_plugin
+acl_check_v3	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_acl_check_v3 acl_check_v3;$/;"	m	struct:mosquitto__auth_plugin
+acl_file	mosquitto_broker_internal.h	/^	char *acl_file;$/;"	m	struct:mosquitto__security_options
+acl_list	mosquitto_broker_internal.h	/^	struct mosquitto__acl_user *acl_list;$/;"	m	struct:mosquitto__security_options	typeref:struct:mosquitto__security_options::mosquitto__acl_user
+acl_patterns	mosquitto_broker_internal.h	/^	struct mosquitto__acl *acl_patterns;$/;"	m	struct:mosquitto__security_options	typeref:struct:mosquitto__security_options::mosquitto__acl
+aclfile__parse	security_default.cpp	/^static int aclfile__parse(struct mosquitto_db *db, struct mosquitto__security_options *security_opts)$/;"	f	file:
+add__acl	security_default.cpp	/^int add__acl(struct mosquitto__security_options *security_opts, const char *user, const char *topic, int access)$/;"	f
+add__acl_pattern	security_default.cpp	/^int add__acl_pattern(struct mosquitto__security_options *security_opts, const char *topic, int access)$/;"	f
+address	mosquitto_broker_internal.h	/^	char *address;$/;"	m	struct:bridge_address
+address_count	mosquitto_broker_internal.h	/^	int address_count;$/;"	m	struct:mosquitto__bridge
+addresses	mosquitto_broker_internal.h	/^	struct bridge_address *addresses;$/;"	m	struct:mosquitto__bridge	typeref:struct:mosquitto__bridge::bridge_address
+allow_anonymous	mosquitto_broker_internal.h	/^	int8_t allow_anonymous;$/;"	m	struct:mosquitto__security_options
+allow_duplicate_messages	mosquitto_broker_internal.h	/^	bool allow_duplicate_messages;$/;"	m	struct:mosquitto__config
+allow_severity	mosquitto.cpp	/^int allow_severity = LOG_INFO;$/;"	v
+allow_zero_length_clientid	mosquitto_broker_internal.h	/^	bool allow_zero_length_clientid;$/;"	m	struct:mosquitto__security_options
+array	mosquitto_broker_internal.h	/^	char array[MOSQ_PAYLOAD_UNION_SIZE];$/;"	m	union:__anon1
+array	mosquitto_broker_internal.h	/^	char array[MOSQ_TOPIC_ELEMENT_UNION_SIZE];$/;"	m	union:__anon2
+attempt_unsubscribe	mosquitto_broker_internal.h	/^	bool attempt_unsubscribe;$/;"	m	struct:mosquitto__bridge
+auth_plugin_config_count	mosquitto_broker_internal.h	/^	int auth_plugin_config_count;$/;"	m	struct:mosquitto__security_options
+auth_plugin_configs	mosquitto_broker_internal.h	/^	struct mosquitto__auth_plugin_config *auth_plugin_configs;$/;"	m	struct:mosquitto__security_options	typeref:struct:mosquitto__security_options::mosquitto__auth_plugin_config
+auth_plugin_count	mosquitto_broker_internal.h	/^	int auth_plugin_count;$/;"	m	struct:mosquitto_db
+auto_id_prefix	mosquitto_broker_internal.h	/^	char *auto_id_prefix;$/;"	m	struct:mosquitto__security_options
+auto_id_prefix_len	mosquitto_broker_internal.h	/^	int auto_id_prefix_len;$/;"	m	struct:mosquitto__security_options
+autosave_interval	mosquitto_broker_internal.h	/^	int autosave_interval;$/;"	m	struct:mosquitto__config
+autosave_on_changes	mosquitto_broker_internal.h	/^	bool autosave_on_changes;$/;"	m	struct:mosquitto__config
+base64__decode	security_default.cpp	/^int base64__decode(char *in, unsigned char **decoded, unsigned int *decoded_len)$/;"	f
+base64_encode	mosquitto_passwd.cpp	/^int base64_encode(unsigned char *in, unsigned int in_len, char **encoded)$/;"	f
+bd_both	mosquitto_broker_internal.h	/^	bd_both = 2$/;"	e	enum:mosquitto__bridge_direction
+bd_in	mosquitto_broker_internal.h	/^	bd_in = 1,$/;"	e	enum:mosquitto__bridge_direction
+bd_out	mosquitto_broker_internal.h	/^	bd_out = 0,$/;"	e	enum:mosquitto__bridge_direction
+bloom_bv	deps/uthash.h	/^   uint8_t *bloom_bv;$/;"	m	struct:UT_hash_table
+bloom_nbits	deps/uthash.h	/^   char bloom_nbits;$/;"	m	struct:UT_hash_table
+bloom_sig	deps/uthash.h	/^   uint32_t bloom_sig; \/* used only to test bloom exists in external analysis *\/$/;"	m	struct:UT_hash_table
+bool	mosquitto_passwd.cpp	34;"	d	file:
+bridge__connect	bridge.cpp	/^int bridge__connect(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+bridge__connect_step1	bridge.cpp	/^int bridge__connect_step1(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+bridge__connect_step2	bridge.cpp	/^int bridge__connect_step2(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+bridge__connect_step3	bridge.cpp	/^int bridge__connect_step3(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+bridge__new	bridge.cpp	/^int bridge__new(struct mosquitto_db *db, struct mosquitto__bridge *bridge)$/;"	f
+bridge__packet_cleanup	bridge.cpp	/^void bridge__packet_cleanup(struct mosquitto *context)$/;"	f
+bridge_address	mosquitto_broker_internal.h	/^struct bridge_address{$/;"	s
+bridge_count	mosquitto_broker_internal.h	/^	int bridge_count;$/;"	m	struct:mosquitto__config
+bridge_count	mosquitto_broker_internal.h	/^	int bridge_count;$/;"	m	struct:mosquitto_db
+bridges	mosquitto_broker_internal.h	/^	struct mosquitto **bridges;$/;"	m	struct:mosquitto_db	typeref:struct:mosquitto_db::mosquitto
+bridges	mosquitto_broker_internal.h	/^	struct mosquitto__bridge *bridges;$/;"	m	struct:mosquitto__config	typeref:struct:mosquitto__config::mosquitto__bridge
+bst_automatic	mosquitto_broker_internal.h	/^	bst_automatic = 0,$/;"	e	enum:mosquitto_bridge_start_type
+bst_lazy	mosquitto_broker_internal.h	/^	bst_lazy = 1,$/;"	e	enum:mosquitto_bridge_start_type
+bst_manual	mosquitto_broker_internal.h	/^	bst_manual = 2,$/;"	e	enum:mosquitto_bridge_start_type
+bst_once	mosquitto_broker_internal.h	/^	bst_once = 3$/;"	e	enum:mosquitto_bridge_start_type
+buckets	deps/uthash.h	/^   UT_hash_bucket *buckets;$/;"	m	struct:UT_hash_table
+cafile	mosquitto_broker_internal.h	/^	char *cafile;$/;"	m	struct:mosquitto__listener
+calc_load	sys_tree.cpp	/^static void calc_load(struct mosquitto_db *db, char *buf, const char *topic, bool initial, double exponent, double interval, double *current)$/;"	f	file:
+callback_http	websockets.cpp	/^static int callback_http($/;"	f	file:
+callback_mqtt	websockets.cpp	/^static int callback_mqtt($/;"	f	file:
+capath	mosquitto_broker_internal.h	/^	char *capath;$/;"	m	struct:mosquitto__listener
+ccount	mosquitto_broker_internal.h	/^	int ccount;$/;"	m	struct:mosquitto__acl
+certfile	mosquitto_broker_internal.h	/^	char *certfile;$/;"	m	struct:mosquitto__listener
+children	mosquitto_broker_internal.h	/^	struct mosquitto__subhier *children;$/;"	m	struct:mosquitto__subhier	typeref:struct:mosquitto__subhier::mosquitto__subhier
+ciphers	mosquitto_broker_internal.h	/^	char *ciphers;$/;"	m	struct:mosquitto__listener
+clean_session	mosquitto_broker_internal.h	/^	bool clean_session;$/;"	m	struct:mosquitto__bridge
+client_certificate_verify	net.cpp	/^static int client_certificate_verify(int preverify_ok, X509_STORE_CTX *ctx)$/;"	f	file:
+client_chunk	db_dump/db_dump.cpp	/^struct client_chunk$/;"	s	file:
+client_count	mosquitto_broker_internal.h	/^	int client_count;$/;"	m	struct:mosquitto__listener
+client_id	db_dump/db_dump.cpp	/^	char *client_id;$/;"	m	struct:db_client	file:
+client_id	db_dump/db_dump.cpp	/^	char *client_id;$/;"	m	struct:db_client_msg	file:
+client_id	db_dump/db_dump.cpp	/^	char *client_id;$/;"	m	struct:db_sub	file:
+client_id_gen	handle_connect.cpp	/^static char *client_id_gen(struct mosquitto_db *db, int *idlen, const char *auto_id_prefix, int auto_id_prefix_len)$/;"	f	file:
+client_stats	db_dump/db_dump.cpp	/^static int client_stats = 0;$/;"	v	file:
+clientid_index_hash	mosquitto_broker_internal.h	/^	struct clientid__index_hash *clientid_index_hash;$/;"	m	struct:mosquitto_db	typeref:struct:mosquitto_db::clientid__index_hash
+clientid_prefixes	mosquitto_broker_internal.h	/^	char *clientid_prefixes;$/;"	m	struct:mosquitto__config
+clients_by_id	db_dump/db_dump.cpp	/^struct client_chunk *clients_by_id = NULL;$/;"	v	typeref:struct:client_chunk
+conf__attempt_resolve	conf.cpp	/^static int conf__attempt_resolve(const char *host, const char *text, int log, const char *msg)$/;"	f	file:
+conf__parse_bool	conf.cpp	/^static int conf__parse_bool(char **token, const char *name, bool *value, char *saveptr)$/;"	f	file:
+conf__parse_int	conf.cpp	/^static int conf__parse_int(char **token, const char *name, int *value, char *saveptr)$/;"	f	file:
+conf__parse_ssize_t	conf.cpp	/^static int conf__parse_ssize_t(char **token, const char *name, ssize_t *value, char *saveptr)$/;"	f	file:
+conf__parse_string	conf.cpp	/^static int conf__parse_string(char **token, const char *name, char **value, char *saveptr)$/;"	f	file:
+conf__set_cur_security_options	conf.cpp	/^static void conf__set_cur_security_options(struct mosquitto__config *config, struct mosquitto__listener *cur_listener, struct mosquitto__security_options **security_options)$/;"	f	file:
+config	mosquitto_broker_internal.h	/^	struct mosquitto__config *config;$/;"	m	struct:mosquitto_db	typeref:struct:mosquitto_db::mosquitto__config
+config__check	conf.cpp	/^static int config__check(struct mosquitto__config *config)$/;"	f	file:
+config__cleanup	conf.cpp	/^void config__cleanup(struct mosquitto__config *config)$/;"	f
+config__cleanup_plugins	conf.cpp	/^static void config__cleanup_plugins(struct mosquitto__config *config)$/;"	f	file:
+config__copy	conf.cpp	/^void config__copy(struct mosquitto__config *src, struct mosquitto__config *dest)$/;"	f
+config__get_dir_files	conf_includedir.cpp	/^int config__get_dir_files(const char *include_dir, char ***files, int *file_count)$/;"	f
+config__init	conf.cpp	/^void config__init(struct mosquitto_db *db, struct mosquitto__config *config)$/;"	f
+config__init_reload	conf.cpp	/^static void config__init_reload(struct mosquitto_db *db, struct mosquitto__config *config)$/;"	f	file:
+config__parse_args	conf.cpp	/^int config__parse_args(struct mosquitto_db *db, struct mosquitto__config *config, int argc, char *argv[])$/;"	f
+config__read	conf.cpp	/^int config__read(struct mosquitto_db *db, struct mosquitto__config *config, bool reload)$/;"	f
+config__read_file	conf.cpp	/^int config__read_file(struct mosquitto__config *config, bool reload, const char *file, struct config_recurse *cr, int level, int *lineno)$/;"	f
+config__read_file_core	conf.cpp	/^int config__read_file_core(struct mosquitto__config *config, bool reload, struct config_recurse *cr, int level, int *lineno, FILE *fptr, char **buf, int *buflen)$/;"	f
+config_file	mosquitto_broker_internal.h	/^	char *config_file;$/;"	m	struct:mosquitto_db
+config_recurse	conf.cpp	/^struct config_recurse {$/;"	s	file:
+connection_check_acl	handle_connect.cpp	/^void connection_check_acl(struct mosquitto_db *db, struct mosquitto *context, struct mosquitto_client_msg **msgs)$/;"	f
+connection_messages	mosquitto_broker_internal.h	/^	bool connection_messages;$/;"	m	struct:mosquitto__config
+context	mosquitto_broker_internal.h	/^	struct mosquitto *context;$/;"	m	struct:mosquitto__subleaf	typeref:struct:mosquitto__subleaf::mosquitto
+context__add_to_disused	context.cpp	/^void context__add_to_disused(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+context__cleanup	context.cpp	/^void context__cleanup(struct mosquitto_db *db, struct mosquitto *context, bool do_free)$/;"	f
+context__disconnect	context.cpp	/^void context__disconnect(struct mosquitto_db *db, struct mosquitto *ctxt)$/;"	f
+context__free_disused	context.cpp	/^void context__free_disused(struct mosquitto_db *db)$/;"	f
+context__init	context.cpp	/^struct mosquitto *context__init(struct mosquitto_db *db, mosq_sock_t sock)$/;"	f
+context__send_will	context.cpp	/^void context__send_will(struct mosquitto_db *db, struct mosquitto *ctxt)$/;"	f
+contexts_by_id	mosquitto_broker_internal.h	/^	struct mosquitto *contexts_by_id;$/;"	m	struct:mosquitto_db	typeref:struct:mosquitto_db::mosquitto
+contexts_by_sock	mosquitto_broker_internal.h	/^	struct mosquitto *contexts_by_sock;$/;"	m	struct:mosquitto_db	typeref:struct:mosquitto_db::mosquitto
+contexts_for_free	mosquitto_broker_internal.h	/^	struct mosquitto *contexts_for_free;$/;"	m	struct:mosquitto_db	typeref:struct:mosquitto_db::mosquitto
+copy_contents	mosquitto_passwd.cpp	/^int copy_contents(FILE *src, FILE *dest)$/;"	f
+count	deps/uthash.h	/^   unsigned count;$/;"	m	struct:UT_hash_bucket
+create_backup	mosquitto_passwd.cpp	/^int create_backup(const char *backup_file, FILE *fptr)$/;"	f
+crlfile	mosquitto_broker_internal.h	/^	char *crlfile;$/;"	m	struct:mosquitto__listener
+cur_address	mosquitto_broker_internal.h	/^	int cur_address;$/;"	m	struct:mosquitto__bridge
+daemon	mosquitto_broker_internal.h	/^	bool daemon;$/;"	m	struct:mosquitto__config
+db__client_chunk_restore	db_dump/db_dump.cpp	/^static int db__client_chunk_restore(struct mosquitto_db *db, FILE *db_fd, struct db_client *client)$/;"	f	file:
+db__client_msg_chunk_restore	db_dump/db_dump.cpp	/^static int db__client_msg_chunk_restore(struct mosquitto_db *db, FILE *db_fd, uint32_t length, struct db_client_msg *msg)$/;"	f	file:
+db__close	database.cpp	/^int db__close(struct mosquitto_db *db)$/;"	f
+db__limits_set	database.cpp	/^void db__limits_set(int inflight, unsigned long inflight_bytes, int queued, unsigned long queued_bytes)$/;"	f
+db__message_delete	database.cpp	/^int db__message_delete(struct mosquitto_db *db, struct mosquitto *context, uint16_t mid, enum mosquitto_msg_direction dir)$/;"	f
+db__message_dequeue_first	database.cpp	/^void db__message_dequeue_first(struct mosquitto *context)$/;"	f
+db__message_insert	database.cpp	/^int db__message_insert(struct mosquitto_db *db, struct mosquitto *context, uint16_t mid, enum mosquitto_msg_direction dir, int qos, bool retain, struct mosquitto_msg_store *stored)$/;"	f
+db__message_reconnect_reset	database.cpp	/^int db__message_reconnect_reset(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+db__message_release	database.cpp	/^int db__message_release(struct mosquitto_db *db, struct mosquitto *context, uint16_t mid, enum mosquitto_msg_direction dir)$/;"	f
+db__message_remove	database.cpp	/^static void db__message_remove(struct mosquitto_db *db, struct mosquitto *context, struct mosquitto_client_msg **msg, struct mosquitto_client_msg *last)$/;"	f	file:
+db__message_store	database.cpp	/^int db__message_store(struct mosquitto_db *db, const char *source, uint16_t source_mid, char *topic, int qos, uint32_t payloadlen, mosquitto__payload_uhpa *payload, int retain, struct mosquitto_msg_store **stored, dbid_t store_id)$/;"	f
+db__message_store_find	database.cpp	/^int db__message_store_find(struct mosquitto *context, uint16_t mid, struct mosquitto_msg_store **stored)$/;"	f
+db__message_update	database.cpp	/^int db__message_update(struct mosquitto *context, uint16_t mid, enum mosquitto_msg_direction dir, enum mosquitto_msg_state state)$/;"	f
+db__message_write	database.cpp	/^int db__message_write(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+db__messages_delete	database.cpp	/^int db__messages_delete(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+db__messages_easy_queue	database.cpp	/^int db__messages_easy_queue(struct mosquitto_db *db, struct mosquitto *context, const char *topic, int qos, uint32_t payloadlen, const void *payload, int retain)$/;"	f
+db__msg_store_add	database.cpp	/^void db__msg_store_add(struct mosquitto_db *db, struct mosquitto_msg_store *store)$/;"	f
+db__msg_store_chunk_restore	db_dump/db_dump.cpp	/^static int db__msg_store_chunk_restore(struct mosquitto_db *db, FILE *db_fd, uint32_t length, struct db_msg *msg)$/;"	f	file:
+db__msg_store_clean	database.cpp	/^void db__msg_store_clean(struct mosquitto_db *db)$/;"	f
+db__msg_store_deref	database.cpp	/^void db__msg_store_deref(struct mosquitto_db *db, struct mosquitto_msg_store **store)$/;"	f
+db__msg_store_remove	database.cpp	/^void db__msg_store_remove(struct mosquitto_db *db, struct mosquitto_msg_store *store)$/;"	f
+db__open	database.cpp	/^int db__open(struct mosquitto__config *config, struct mosquitto_db *db)$/;"	f
+db__ready_for_flight	database.cpp	/^static bool db__ready_for_flight(struct mosquitto *context, int qos)$/;"	f	file:
+db__ready_for_queue	database.cpp	/^static bool db__ready_for_queue(struct mosquitto *context, int qos)$/;"	f	file:
+db__retain_chunk_restore	db_dump/db_dump.cpp	/^static int db__retain_chunk_restore(struct mosquitto_db *db, FILE *db_fd)$/;"	f	file:
+db__sub_chunk_restore	db_dump/db_dump.cpp	/^static int db__sub_chunk_restore(struct mosquitto_db *db, FILE *db_fd, uint32_t length, struct db_sub *sub)$/;"	f	file:
+db__vacuum	database.cpp	/^void db__vacuum(void)$/;"	f
+db_client	db_dump/db_dump.cpp	/^struct db_client$/;"	s	file:
+db_client_msg	db_dump/db_dump.cpp	/^struct db_client_msg$/;"	s	file:
+db_id	mosquitto_broker_internal.h	/^	dbid_t db_id;$/;"	m	struct:mosquitto_msg_store
+db_id	mosquitto_broker_internal.h	/^	dbid_t db_id;$/;"	m	struct:mosquitto_msg_store_load
+db_msg	db_dump/db_dump.cpp	/^struct db_msg$/;"	s	file:
+db_sub	db_dump/db_dump.cpp	/^struct db_sub$/;"	s	file:
+db_version	db_dump/db_dump.cpp	/^static uint32_t db_version;$/;"	v	file:
+db_version	persist.cpp	/^static uint32_t db_version;$/;"	v	file:
+dbid_t	mosquitto_broker_internal.h	/^typedef uint64_t dbid_t;$/;"	t
+default_listener	mosquitto_broker_internal.h	/^	struct mosquitto__listener default_listener;$/;"	m	struct:mosquitto__config	typeref:struct:mosquitto__config::mosquitto__listener
+delete_pwuser	mosquitto_passwd.cpp	/^int delete_pwuser(FILE *fptr, FILE *ftmp, const char *username)$/;"	f
+deny_severity	mosquitto.cpp	/^int deny_severity = LOG_INFO;$/;"	v
+deny_special_chars	mosquitto_broker_internal.h	/^	bool deny_special_chars;$/;"	m	struct:mosquitto__auth_plugin_config
+dest_id_count	mosquitto_broker_internal.h	/^	int dest_id_count;$/;"	m	struct:mosquitto_msg_store
+dest_ids	mosquitto_broker_internal.h	/^	char **dest_ids;$/;"	m	struct:mosquitto_msg_store
+direction	db_dump/db_dump.cpp	/^	uint8_t qos, retain, direction, state, dup;$/;"	m	struct:db_client_msg	file:
+direction	mosquitto_broker_internal.h	/^	enum mosquitto__bridge_direction direction;$/;"	m	struct:mosquitto__bridge_topic	typeref:enum:mosquitto__bridge_topic::mosquitto__bridge_direction
+direction	mosquitto_broker_internal.h	/^	enum mosquitto_msg_direction direction;$/;"	m	struct:mosquitto_client_msg	typeref:enum:mosquitto_client_msg::mosquitto_msg_direction
+disconnect_t	db_dump/db_dump.cpp	/^	time_t disconnect_t;$/;"	m	struct:db_client	file:
+do_disconnect	loop.cpp	/^void do_disconnect(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+do_print	db_dump/db_dump.cpp	/^static int do_print = 1;$/;"	v	file:
+drop_privileges	mosquitto.cpp	/^int drop_privileges(struct mosquitto__config *config, bool temporary)$/;"	f
+dup	db_dump/db_dump.cpp	/^	uint8_t qos, retain, direction, state, dup;$/;"	m	struct:db_client_msg	file:
+dup	mosquitto_broker_internal.h	/^	bool dup;$/;"	m	struct:mosquitto_client_msg
+easy_address	websockets.cpp	/^static void easy_address(int sock, struct mosquitto *mosq)$/;"	f	file:
+epollfd	mosquitto_broker_internal.h	/^	int epollfd;$/;"	m	struct:mosquitto_db
+expand_mult	deps/uthash.h	/^   unsigned expand_mult;$/;"	m	struct:UT_hash_bucket
+false	mosquitto_passwd.cpp	36;"	d	file:
+fd	mosquitto_broker_internal.h	/^	int fd;$/;"	m	struct:mosquitto__listener
+fgets_extending	conf.cpp	/^static char *fgets_extending(char **buf, int *buflen, FILE *stream)$/;"	f	file:
+flag_db_backup	mosquitto.cpp	/^bool flag_db_backup = false;$/;"	v
+flag_reload	mosquitto.cpp	/^bool flag_reload = false;$/;"	v
+flag_tree_print	mosquitto.cpp	/^bool flag_tree_print = false;$/;"	v
+fptr	websockets.cpp	/^	FILE *fptr;$/;"	m	struct:libws_http_data	file:
+free__acl	security_default.cpp	/^static void free__acl(struct mosquitto__acl *acl)$/;"	f	file:
+free__db_client	db_dump/db_dump.cpp	/^free__db_client(struct db_client *client)$/;"	f	file:
+free__db_client_msg	db_dump/db_dump.cpp	/^free__db_client_msg(struct db_client_msg *msg)$/;"	f	file:
+free__db_msg	db_dump/db_dump.cpp	/^free__db_msg(struct db_msg *msg)$/;"	f	file:
+free__db_sub	db_dump/db_dump.cpp	/^free__db_sub(struct db_sub *sub)$/;"	f	file:
+g_bytes_received	sys_tree.cpp	/^uint64_t g_bytes_received = 0;$/;"	v
+g_bytes_sent	sys_tree.cpp	/^uint64_t g_bytes_sent = 0;$/;"	v
+g_clients_expired	sys_tree.cpp	/^int g_clients_expired = 0;$/;"	v
+g_connection_count	sys_tree.cpp	/^unsigned int g_connection_count = 0;$/;"	v
+g_msgs_dropped	sys_tree.cpp	/^unsigned long g_msgs_dropped = 0;$/;"	v
+g_msgs_received	sys_tree.cpp	/^unsigned long g_msgs_received = 0;$/;"	v
+g_msgs_sent	sys_tree.cpp	/^unsigned long g_msgs_sent = 0;$/;"	v
+g_pub_bytes_received	sys_tree.cpp	/^uint64_t g_pub_bytes_received = 0;$/;"	v
+g_pub_bytes_sent	sys_tree.cpp	/^uint64_t g_pub_bytes_sent = 0;$/;"	v
+g_pub_msgs_received	sys_tree.cpp	/^unsigned long g_pub_msgs_received = 0;$/;"	v
+g_pub_msgs_sent	sys_tree.cpp	/^unsigned long g_pub_msgs_sent = 0;$/;"	v
+g_socket_connections	sys_tree.cpp	/^unsigned int g_socket_connections = 0;$/;"	v
+get16bits	deps/uthash.h	458;"	d
+get16bits	deps/uthash.h	461;"	d
+get16bits	deps/uthash.h	465;"	d
+get_password	mosquitto_passwd.cpp	/^int get_password(char *password, int len)$/;"	f
+gets_quiet	mosquitto_passwd.cpp	/^int gets_quiet(char *s, int len)$/;"	f
+handle__connack	handle_connack.cpp	/^int handle__connack(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+handle__connect	handle_connect.cpp	/^int handle__connect(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+handle__disconnect	handle_connect.cpp	/^int handle__disconnect(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+handle__packet	read_handle.cpp	/^int handle__packet(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+handle__publish	handle_publish.cpp	/^int handle__publish(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+handle__subscribe	handle_subscribe.cpp	/^int handle__subscribe(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+handle__unsubscribe	handle_unsubscribe.cpp	/^int handle__unsubscribe(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+handle_sighup	signals.cpp	/^void handle_sighup(int signal)$/;"	f
+handle_sigint	mosquitto_passwd.cpp	/^void handle_sigint(int signal)$/;"	f
+handle_sigint	signals.cpp	/^void handle_sigint(int signal)$/;"	f
+handle_sigusr1	signals.cpp	/^void handle_sigusr1(int signal)$/;"	f
+handle_sigusr2	signals.cpp	/^void handle_sigusr2(int signal)$/;"	f
+hashv	deps/uthash.h	/^   unsigned hashv;                   \/* result of hash-fcn(key)        *\/$/;"	m	struct:UT_hash_handle
+have_websockets_listener	mosquitto_broker_internal.h	/^	bool have_websockets_listener;$/;"	m	struct:mosquitto__config
+hh	db_dump/db_dump.cpp	/^	UT_hash_handle hh;$/;"	m	struct:msg_store_chunk	file:
+hh	mosquitto_broker_internal.h	/^	UT_hash_handle hh;$/;"	m	struct:mosquitto__subhier
+hh	mosquitto_broker_internal.h	/^	UT_hash_handle hh;$/;"	m	struct:mosquitto__unpwd
+hh	mosquitto_broker_internal.h	/^	UT_hash_handle hh;$/;"	m	struct:mosquitto_msg_store_load
+hh_head	deps/uthash.h	/^   struct UT_hash_handle *hh_head;$/;"	m	struct:UT_hash_bucket	typeref:struct:UT_hash_bucket::UT_hash_handle
+hh_id	db_dump/db_dump.cpp	/^	UT_hash_handle hh_id;$/;"	m	struct:client_chunk	file:
+hh_next	deps/uthash.h	/^   struct UT_hash_handle *hh_next;   \/* next hh in bucket order        *\/$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_handle
+hh_prev	deps/uthash.h	/^   struct UT_hash_handle *hh_prev;   \/* previous hh in bucket order    *\/$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_handle
+hho	deps/uthash.h	/^   ptrdiff_t hho; \/* hash handle offset (byte pos of hash handle in element *\/$/;"	m	struct:UT_hash_table
+host	mosquitto_broker_internal.h	/^	char *host;$/;"	m	struct:mosquitto__listener
+http__canonical_filename	websockets.cpp	/^static char *http__canonical_filename($/;"	f	file:
+http_dir	mosquitto_broker_internal.h	/^	char *http_dir;$/;"	m	struct:libws_mqtt_hack
+http_dir	mosquitto_broker_internal.h	/^	char *http_dir;$/;"	m	struct:mosquitto__listener
+id	db_dump/db_dump.cpp	/^	char *id;$/;"	m	struct:client_chunk	file:
+ideal_chain_maxlen	deps/uthash.h	/^   unsigned ideal_chain_maxlen;$/;"	m	struct:UT_hash_table
+idle_timeout	mosquitto_broker_internal.h	/^	int idle_timeout;$/;"	m	struct:mosquitto__bridge
+ineff_expands	deps/uthash.h	/^   unsigned ineff_expands, noexpand;$/;"	m	struct:UT_hash_table
+initial_notification_done	mosquitto_broker_internal.h	/^	bool initial_notification_done;$/;"	m	struct:mosquitto__bridge
+int_db	mosquitto.cpp	/^struct mosquitto_db int_db;$/;"	v	typeref:struct:mosquitto_db
+keepalive	mosquitto_broker_internal.h	/^	int keepalive;$/;"	m	struct:mosquitto__bridge
+key	deps/uthash.h	/^   void *key;                        \/* ptr to enclosing struct's key  *\/$/;"	m	struct:UT_hash_handle
+key	mosquitto_plugin.h	/^	char *key;$/;"	m	struct:mosquitto_auth_opt
+key	mosquitto_plugin.h	/^	char *key;$/;"	m	struct:mosquitto_opt
+keyfile	mosquitto_broker_internal.h	/^	char *keyfile;$/;"	m	struct:mosquitto__listener
+keylen	deps/uthash.h	/^   unsigned keylen;                  \/* enclosing struct's key len     *\/$/;"	m	struct:UT_hash_handle
+last_db_id	mosquitto_broker_internal.h	/^	dbid_t last_db_id;$/;"	m	struct:mosquitto_db
+last_mid	db_dump/db_dump.cpp	/^	uint16_t last_mid;$/;"	m	struct:db_client	file:
+lazy_reconnect	mosquitto_broker_internal.h	/^	bool lazy_reconnect;$/;"	m	struct:mosquitto__bridge
+length	db_dump/db_dump.cpp	/^	uint32_t length;$/;"	m	struct:msg_store_chunk	file:
+lib	mosquitto_broker_internal.h	/^	void *lib;$/;"	m	struct:mosquitto__auth_plugin
+libwebsocket	mosquitto_broker_internal.h	39;"	d
+libwebsocket_callback_on_writable	mosquitto_broker_internal.h	28;"	d
+libwebsocket_callback_reasons	mosquitto_broker_internal.h	38;"	d
+libwebsocket_context	mosquitto_broker_internal.h	36;"	d
+libwebsocket_context_destroy	mosquitto_broker_internal.h	31;"	d
+libwebsocket_create_context	mosquitto_broker_internal.h	30;"	d
+libwebsocket_get_socket_fd	mosquitto_broker_internal.h	33;"	d
+libwebsocket_protocols	mosquitto_broker_internal.h	37;"	d
+libwebsocket_service	mosquitto_broker_internal.h	29;"	d
+libwebsocket_write	mosquitto_broker_internal.h	32;"	d
+libwebsockets_get_protocol	mosquitto_broker_internal.h	35;"	d
+libwebsockets_return_http_status	mosquitto_broker_internal.h	34;"	d
+libws_http_data	websockets.cpp	/^struct libws_http_data {$/;"	s	file:
+libws_mqtt_data	mosquitto_broker_internal.h	/^struct libws_mqtt_data {$/;"	s
+libws_mqtt_hack	mosquitto_broker_internal.h	/^struct libws_mqtt_hack {$/;"	s
+listener_count	mosquitto_broker_internal.h	/^	int listener_count;$/;"	m	struct:mosquitto__config
+listeners	mosquitto_broker_internal.h	/^	struct mosquitto__listener *listeners;$/;"	m	struct:mosquitto__config	typeref:struct:mosquitto__config::mosquitto__listener
+ll_for_free	mosquitto_broker_internal.h	/^	struct mosquitto *ll_for_free;$/;"	m	struct:mosquitto_db	typeref:struct:mosquitto_db::mosquitto
+local_clientid	mosquitto_broker_internal.h	/^	char *local_clientid;$/;"	m	struct:mosquitto__bridge
+local_password	mosquitto_broker_internal.h	/^	char *local_password;$/;"	m	struct:mosquitto__bridge
+local_prefix	mosquitto_broker_internal.h	/^	char *local_prefix;$/;"	m	struct:mosquitto__bridge_topic
+local_topic	mosquitto_broker_internal.h	/^	char *local_topic; \/* topic prefixed with local_prefix *\/$/;"	m	struct:mosquitto__bridge_topic
+local_username	mosquitto_broker_internal.h	/^	char *local_username;$/;"	m	struct:mosquitto__bridge
+log2_num_buckets	deps/uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table
+log__close	logging.cpp	/^int log__close(struct mosquitto__config *config)$/;"	f
+log__init	logging.cpp	/^int log__init(struct mosquitto__config *config)$/;"	f
+log__printf	logging.cpp	/^int log__printf(struct mosquitto *mosq, int priority, const char *fmt, ...)$/;"	f
+log__vprintf	logging.cpp	/^int log__vprintf(int priority, const char *fmt, va_list va)$/;"	f
+log_dest	conf.cpp	/^	int log_dest;$/;"	m	struct:config_recurse	file:
+log_dest	mosquitto_broker_internal.h	/^	int log_dest;$/;"	m	struct:mosquitto__config
+log_dest_set	conf.cpp	/^	int log_dest_set;$/;"	m	struct:config_recurse	file:
+log_destinations	logging.cpp	/^static int log_destinations = MQTT3_LOG_STDERR;$/;"	v	file:
+log_facility	mosquitto_broker_internal.h	/^	int log_facility;$/;"	m	struct:mosquitto__config
+log_file	mosquitto_broker_internal.h	/^	char *log_file;$/;"	m	struct:mosquitto__config
+log_fptr	mosquitto_broker_internal.h	/^	FILE *log_fptr;$/;"	m	struct:mosquitto__config
+log_priorities	logging.cpp	/^static int log_priorities = MOSQ_LOG_ERR | MOSQ_LOG_WARNING | MOSQ_LOG_NOTICE | MOSQ_LOG_INFO;$/;"	v	file:
+log_timestamp	mosquitto_broker_internal.h	/^	bool log_timestamp;$/;"	m	struct:mosquitto__config
+log_type	conf.cpp	/^	int log_type;$/;"	m	struct:config_recurse	file:
+log_type	mosquitto_broker_internal.h	/^	int log_type;$/;"	m	struct:mosquitto__config
+log_type_set	conf.cpp	/^	int log_type_set;$/;"	m	struct:config_recurse	file:
+log_wrap	websockets.cpp	/^static void log_wrap(int level, const char *line)$/;"	f	file:
+loop_handle_reads_writes	loop.cpp	/^static void loop_handle_reads_writes(struct mosquitto_db *db, mosq_sock_t sock, uint32_t events)$/;"	f	file:
+lws_pollargs	mosquitto_broker_internal.h	43;"	d
+lws_pollfd	mosquitto_broker_internal.h	41;"	d
+lws_service_fd	mosquitto_broker_internal.h	42;"	d
+magic	persist.h	/^const unsigned char magic[15] = {0x00, 0xB5, 0x00, 'm','o','s','q','u','i','t','t','o',' ','d','b'};$/;"	v
+main	db_dump/db_dump.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	mosquitto.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	mosquitto_passwd.cpp	/^int main(int argc, char *argv[])$/;"	f
+max_connections	mosquitto_broker_internal.h	/^	int max_connections;$/;"	m	struct:mosquitto__listener
+max_inflight	database.cpp	/^static int max_inflight = 20;$/;"	v	file:
+max_inflight_bytes	conf.cpp	/^	unsigned long max_inflight_bytes;$/;"	m	struct:config_recurse	file:
+max_inflight_bytes	database.cpp	/^static unsigned long max_inflight_bytes = 0;$/;"	v	file:
+max_inflight_messages	conf.cpp	/^	int max_inflight_messages;$/;"	m	struct:config_recurse	file:
+max_queued	database.cpp	/^static int max_queued = 100;$/;"	v	file:
+max_queued_bytes	conf.cpp	/^	unsigned long max_queued_bytes;$/;"	m	struct:config_recurse	file:
+max_queued_bytes	database.cpp	/^static unsigned long max_queued_bytes = 0;$/;"	v	file:
+max_queued_messages	conf.cpp	/^	int max_queued_messages;$/;"	m	struct:config_recurse	file:
+message_size	db_dump/db_dump.cpp	/^	long message_size;$/;"	m	struct:client_chunk	file:
+message_size_limit	mosquitto_broker_internal.h	/^	uint32_t message_size_limit;$/;"	m	struct:mosquitto__config
+messages	db_dump/db_dump.cpp	/^	int messages;$/;"	m	struct:client_chunk	file:
+mid	db_dump/db_dump.cpp	/^	uint16_t mid;$/;"	m	struct:db_client_msg	file:
+mid	db_dump/db_dump.cpp	/^	uint16_t source_mid, mid;$/;"	m	struct:db_msg	file:
+mid	mosquitto_broker_internal.h	/^	uint16_t mid;$/;"	m	struct:mosquitto_client_msg
+mid	mosquitto_broker_internal.h	/^	uint16_t mid;$/;"	m	struct:mosquitto_msg_store
+mosq	mosquitto_broker_internal.h	/^	struct mosquitto *mosq;$/;"	m	struct:libws_mqtt_data	typeref:struct:libws_mqtt_data::mosquitto
+mosq_websockets_init	websockets.cpp	/^struct libwebsocket_context *mosq_websockets_init(struct mosquitto__listener *listener, int log_level)$/;"	f
+mosq_ws_protocols	websockets.cpp	/^enum mosq_ws_protocols {$/;"	g	file:
+mosquitto__acl	mosquitto_broker_internal.h	/^struct mosquitto__acl{$/;"	s
+mosquitto__acl_user	mosquitto_broker_internal.h	/^struct mosquitto__acl_user{$/;"	s
+mosquitto__auth_plugin	mosquitto_broker_internal.h	/^struct mosquitto__auth_plugin{$/;"	s
+mosquitto__auth_plugin_config	mosquitto_broker_internal.h	/^struct mosquitto__auth_plugin_config$/;"	s
+mosquitto__bridge	mosquitto_broker_internal.h	/^struct mosquitto__bridge{$/;"	s
+mosquitto__bridge_direction	mosquitto_broker_internal.h	/^enum mosquitto__bridge_direction{$/;"	g
+mosquitto__bridge_topic	mosquitto_broker_internal.h	/^struct mosquitto__bridge_topic{$/;"	s
+mosquitto__config	mosquitto_broker_internal.h	/^struct mosquitto__config {$/;"	s
+mosquitto__daemonise	mosquitto.cpp	/^void mosquitto__daemonise(void)$/;"	f
+mosquitto__free	db_dump/db_dump.cpp	33;"	d	file:
+mosquitto__get_db	mosquitto.cpp	/^struct mosquitto_db *mosquitto__get_db(void)$/;"	f
+mosquitto__listener	mosquitto_broker_internal.h	/^struct mosquitto__listener {$/;"	s
+mosquitto__malloc	db_dump/db_dump.cpp	32;"	d	file:
+mosquitto__memcmp_const	security_default.cpp	/^static int mosquitto__memcmp_const(const void *a, const void *b, size_t len)$/;"	f	file:
+mosquitto__payload_uhpa	mosquitto_broker_internal.h	/^} mosquitto__payload_uhpa;$/;"	t	typeref:union:__anon1
+mosquitto__security_options	mosquitto_broker_internal.h	/^struct mosquitto__security_options {$/;"	s
+mosquitto__subhier	mosquitto_broker_internal.h	/^struct mosquitto__subhier {$/;"	s
+mosquitto__subleaf	mosquitto_broker_internal.h	/^struct mosquitto__subleaf {$/;"	s
+mosquitto__tls_server_ctx	net.cpp	/^static int mosquitto__tls_server_ctx(struct mosquitto__listener *listener)$/;"	f	file:
+mosquitto__topic_element_uhpa	mosquitto_broker_internal.h	/^} mosquitto__topic_element_uhpa;$/;"	t	typeref:union:__anon2
+mosquitto__unpwd	mosquitto_broker_internal.h	/^struct mosquitto__unpwd{$/;"	s
+mosquitto_acl_check	security.cpp	/^int mosquitto_acl_check(struct mosquitto_db *db, struct mosquitto *context, const char *topic, long payloadlen, void* payload, int qos, bool retain, int access)$/;"	f
+mosquitto_acl_check_default	security_default.cpp	/^int mosquitto_acl_check_default(struct mosquitto_db *db, struct mosquitto *context, const char *topic, int access)$/;"	f
+mosquitto_acl_msg	mosquitto_plugin.h	/^struct mosquitto_acl_msg {$/;"	s
+mosquitto_auth_acl_check	plugin_defer.cpp	/^int mosquitto_auth_acl_check(void *user_data, int access, const struct mosquitto *client, struct mosquitto_acl_msg *msg)$/;"	f
+mosquitto_auth_opt	mosquitto_plugin.h	/^struct mosquitto_auth_opt {$/;"	s
+mosquitto_auth_plugin_cleanup	plugin_defer.cpp	/^int mosquitto_auth_plugin_cleanup(void *user_data, struct mosquitto_opt *auth_opts, int auth_opt_count)$/;"	f
+mosquitto_auth_plugin_init	plugin_defer.cpp	/^int mosquitto_auth_plugin_init(void **user_data, struct mosquitto_opt *auth_opts, int auth_opt_count)$/;"	f
+mosquitto_auth_plugin_version	plugin_defer.cpp	/^int mosquitto_auth_plugin_version(void)$/;"	f
+mosquitto_auth_psk_key_get	plugin_defer.cpp	/^int mosquitto_auth_psk_key_get(void *user_data, const struct mosquitto *client, const char *hint, const char *identity, char *key, int max_key_len)$/;"	f
+mosquitto_auth_security_cleanup	plugin_defer.cpp	/^int mosquitto_auth_security_cleanup(void *user_data, struct mosquitto_opt *auth_opts, int auth_opt_count, bool reload)$/;"	f
+mosquitto_auth_security_init	plugin_defer.cpp	/^int mosquitto_auth_security_init(void *user_data, struct mosquitto_opt *auth_opts, int auth_opt_count, bool reload)$/;"	f
+mosquitto_auth_unpwd_check	plugin_defer.cpp	/^int mosquitto_auth_unpwd_check(void *user_data, const struct mosquitto *client, const char *username, const char *password)$/;"	f
+mosquitto_bridge_start_type	mosquitto_broker_internal.h	/^enum mosquitto_bridge_start_type{$/;"	g
+mosquitto_client_address	plugin.cpp	/^const char *mosquitto_client_address(const struct mosquitto *client)$/;"	f
+mosquitto_client_certificate	plugin.cpp	/^void *mosquitto_client_certificate(const struct mosquitto *client)$/;"	f
+mosquitto_client_clean_session	plugin.cpp	/^bool mosquitto_client_clean_session(const struct mosquitto *client)$/;"	f
+mosquitto_client_id	plugin.cpp	/^const char *mosquitto_client_id(const struct mosquitto *client)$/;"	f
+mosquitto_client_keepalive	plugin.cpp	/^int mosquitto_client_keepalive(const struct mosquitto *client)$/;"	f
+mosquitto_client_msg	mosquitto_broker_internal.h	/^struct mosquitto_client_msg{$/;"	s
+mosquitto_client_protocol	plugin.cpp	/^int mosquitto_client_protocol(const struct mosquitto *client)$/;"	f
+mosquitto_client_sub_count	plugin.cpp	/^int mosquitto_client_sub_count(const struct mosquitto *client)$/;"	f
+mosquitto_client_username	plugin.cpp	/^const char *mosquitto_client_username(const struct mosquitto *context)$/;"	f
+mosquitto_db	mosquitto_broker_internal.h	/^struct mosquitto_db{$/;"	s
+mosquitto_log_printf	logging.cpp	/^void mosquitto_log_printf(int level, const char *fmt, ...)$/;"	f
+mosquitto_log_vprintf	logging.cpp	/^int mosquitto_log_vprintf(int level, const char *fmt, va_list va)$/;"	f
+mosquitto_main_loop	loop.cpp	/^int mosquitto_main_loop(struct mosquitto_db *db, mosq_sock_t *listensock, int listensock_count, int listener_max)$/;"	f
+mosquitto_msg_store	mosquitto_broker_internal.h	/^struct mosquitto_msg_store{$/;"	s
+mosquitto_msg_store_load	mosquitto_broker_internal.h	/^struct mosquitto_msg_store_load{$/;"	s
+mosquitto_opt	mosquitto_plugin.h	/^struct mosquitto_opt {$/;"	s
+mosquitto_protocol	mosquitto_broker.h	/^enum mosquitto_protocol {$/;"	g
+mosquitto_psk_key_get	security.cpp	/^int mosquitto_psk_key_get(struct mosquitto_db *db, struct mosquitto *context, const char *hint, const char *identity, char *key, int max_key_len)$/;"	f
+mosquitto_psk_key_get_default	security_default.cpp	/^int mosquitto_psk_key_get_default(struct mosquitto_db *db, struct mosquitto *context, const char *hint, const char *identity, char *key, int max_key_len)$/;"	f
+mosquitto_security_apply	security.cpp	/^int mosquitto_security_apply(struct mosquitto_db *db)$/;"	f
+mosquitto_security_apply_default	security_default.cpp	/^int mosquitto_security_apply_default(struct mosquitto_db *db)$/;"	f
+mosquitto_security_cleanup	security.cpp	/^int mosquitto_security_cleanup(struct mosquitto_db *db, bool reload)$/;"	f
+mosquitto_security_cleanup_default	security_default.cpp	/^int mosquitto_security_cleanup_default(struct mosquitto_db *db, bool reload)$/;"	f
+mosquitto_security_init	security.cpp	/^int mosquitto_security_init(struct mosquitto_db *db, bool reload)$/;"	f
+mosquitto_security_init_default	security_default.cpp	/^int mosquitto_security_init_default(struct mosquitto_db *db, bool reload)$/;"	f
+mosquitto_security_module_cleanup	security.cpp	/^int mosquitto_security_module_cleanup(struct mosquitto_db *db)$/;"	f
+mosquitto_security_module_init	security.cpp	/^int mosquitto_security_module_init(struct mosquitto_db *db)$/;"	f
+mosquitto_unpwd_check	security.cpp	/^int mosquitto_unpwd_check(struct mosquitto_db *db, struct mosquitto *context, const char *username, const char *password)$/;"	f
+mosquitto_unpwd_check_default	security_default.cpp	/^int mosquitto_unpwd_check_default(struct mosquitto_db *db, struct mosquitto *context, const char *username, const char *password)$/;"	f
+mount_point	mosquitto_broker_internal.h	/^	char *mount_point;$/;"	m	struct:mosquitto__listener
+mp_mqtt	mosquitto_broker.h	/^	mp_mqtt,$/;"	e	enum:mosquitto_protocol
+mp_mqttsn	mosquitto_broker.h	/^	mp_mqttsn,$/;"	e	enum:mosquitto_protocol
+mp_websockets	mosquitto_broker.h	/^	mp_websockets$/;"	e	enum:mosquitto_protocol
+msg_store	mosquitto_broker_internal.h	/^	struct mosquitto_msg_store *msg_store;$/;"	m	struct:mosquitto_db	typeref:struct:mosquitto_db::mosquitto_msg_store
+msg_store_bytes	mosquitto_broker_internal.h	/^	unsigned long msg_store_bytes;$/;"	m	struct:mosquitto_db
+msg_store_chunk	db_dump/db_dump.cpp	/^struct msg_store_chunk$/;"	s	file:
+msg_store_count	mosquitto_broker_internal.h	/^	int msg_store_count;$/;"	m	struct:mosquitto_db
+msg_store_load	mosquitto_broker_internal.h	/^	struct mosquitto_msg_store_load *msg_store_load;$/;"	m	struct:mosquitto_db	typeref:struct:mosquitto_db::mosquitto_msg_store_load
+msgs_by_id	db_dump/db_dump.cpp	/^struct msg_store_chunk *msgs_by_id = NULL;$/;"	v	typeref:struct:msg_store_chunk
+name	mosquitto_broker_internal.h	/^	char *name;$/;"	m	struct:mosquitto__bridge
+net__broker_cleanup	net.cpp	/^void net__broker_cleanup(void)$/;"	f
+net__broker_init	net.cpp	/^void net__broker_init(void)$/;"	f
+net__print_error	net.cpp	/^static void net__print_error(int log, const char *format_str)$/;"	f	file:
+net__socket_accept	net.cpp	/^int net__socket_accept(struct mosquitto_db *db, mosq_sock_t listensock)$/;"	f
+net__socket_get_address	net.cpp	/^int net__socket_get_address(mosq_sock_t sock, char *buf, int len)$/;"	f
+net__socket_listen	net.cpp	/^int net__socket_listen(struct mosquitto__listener *listener)$/;"	f
+next	deps/uthash.h	/^   void *next;                       \/* next element in app order      *\/$/;"	m	struct:UT_hash_handle
+next	mosquitto_broker_internal.h	/^	struct mosquitto__acl *next;$/;"	m	struct:mosquitto__acl	typeref:struct:mosquitto__acl::mosquitto__acl
+next	mosquitto_broker_internal.h	/^	struct mosquitto__acl_user *next;$/;"	m	struct:mosquitto__acl_user	typeref:struct:mosquitto__acl_user::mosquitto__acl_user
+next	mosquitto_broker_internal.h	/^	struct mosquitto__subleaf *next;$/;"	m	struct:mosquitto__subleaf	typeref:struct:mosquitto__subleaf::mosquitto__subleaf
+next	mosquitto_broker_internal.h	/^	struct mosquitto_client_msg *next;$/;"	m	struct:mosquitto_client_msg	typeref:struct:mosquitto_client_msg::mosquitto_client_msg
+next	mosquitto_broker_internal.h	/^	struct mosquitto_msg_store *next;$/;"	m	struct:mosquitto_msg_store	typeref:struct:mosquitto_msg_store::mosquitto_msg_store
+next	subs.cpp	/^	struct sub__token *next;$/;"	m	struct:sub__token	typeref:struct:sub__token::sub__token	file:
+noexpand	deps/uthash.h	/^   unsigned ineff_expands, noexpand;$/;"	m	struct:UT_hash_table
+nonideal_items	deps/uthash.h	/^   unsigned nonideal_items;$/;"	m	struct:UT_hash_table
+notification_topic	mosquitto_broker_internal.h	/^	char *notification_topic;$/;"	m	struct:mosquitto__bridge
+notifications	mosquitto_broker_internal.h	/^	bool notifications;$/;"	m	struct:mosquitto__bridge
+notifications_local_only	mosquitto_broker_internal.h	/^	bool notifications_local_only;$/;"	m	struct:mosquitto__bridge
+num_buckets	deps/uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table
+num_items	deps/uthash.h	/^   unsigned num_items;$/;"	m	struct:UT_hash_table
+option_count	mosquitto_broker_internal.h	/^	int option_count;$/;"	m	struct:mosquitto__auth_plugin_config
+options	mosquitto_broker_internal.h	/^	struct mosquitto_opt *options;$/;"	m	struct:mosquitto__auth_plugin_config	typeref:struct:mosquitto__auth_plugin_config::mosquitto_opt
+output_new_password	mosquitto_passwd.cpp	/^int output_new_password(FILE *fptr, const char *username, const char *password)$/;"	f
+parent	mosquitto_broker_internal.h	/^	struct mosquitto__subhier *parent;$/;"	m	struct:mosquitto__subhier	typeref:struct:mosquitto__subhier::mosquitto__subhier
+password	mosquitto_broker_internal.h	/^	char *password;$/;"	m	struct:mosquitto__unpwd
+password_file	mosquitto_broker_internal.h	/^	char *password_file;$/;"	m	struct:mosquitto__security_options
+password_len	mosquitto_broker_internal.h	/^	unsigned int password_len;$/;"	m	struct:mosquitto__unpwd
+path	mosquitto_broker_internal.h	/^	char *path;$/;"	m	struct:mosquitto__auth_plugin_config
+payload	db_dump/db_dump.cpp	/^	uint8_t *payload;$/;"	m	struct:db_msg	file:
+payload	mosquitto_broker_internal.h	/^	mosquitto__payload_uhpa payload;$/;"	m	struct:mosquitto_msg_store
+payload	mosquitto_plugin.h	/^	const void *payload;$/;"	m	struct:mosquitto_acl_msg
+payloadlen	db_dump/db_dump.cpp	/^	uint32_t payloadlen;$/;"	m	struct:db_msg	file:
+payloadlen	mosquitto_broker_internal.h	/^	uint32_t payloadlen;$/;"	m	struct:mosquitto_msg_store
+payloadlen	mosquitto_plugin.h	/^	long payloadlen;$/;"	m	struct:mosquitto_acl_msg
+per_listener_settings	mosquitto_broker_internal.h	/^	bool per_listener_settings;$/;"	m	struct:mosquitto__config
+persist__backup	persist.cpp	/^int persist__backup(struct mosquitto_db *db, bool shutdown)$/;"	f
+persist__client_chunk_restore	persist.cpp	/^static int persist__client_chunk_restore(struct mosquitto_db *db, FILE *db_fptr)$/;"	f	file:
+persist__client_messages_write	persist.cpp	/^static int persist__client_messages_write(struct mosquitto_db *db, FILE *db_fptr, struct mosquitto *context, struct mosquitto_client_msg *queue)$/;"	f	file:
+persist__client_msg_chunk_restore	persist.cpp	/^static int persist__client_msg_chunk_restore(struct mosquitto_db *db, FILE *db_fptr)$/;"	f	file:
+persist__client_msg_restore	persist.cpp	/^static int persist__client_msg_restore(struct mosquitto_db *db, const char *client_id, uint16_t mid, uint8_t qos, uint8_t retain, uint8_t direction, uint8_t state, uint8_t dup, uint64_t store_id)$/;"	f	file:
+persist__client_write	persist.cpp	/^static int persist__client_write(struct mosquitto_db *db, FILE *db_fptr)$/;"	f	file:
+persist__find_or_add_context	persist.cpp	/^static struct mosquitto *persist__find_or_add_context(struct mosquitto_db *db, const char *client_id, uint16_t last_mid)$/;"	f	file:
+persist__message_store_write	persist.cpp	/^static int persist__message_store_write(struct mosquitto_db *db, FILE *db_fptr)$/;"	f	file:
+persist__msg_store_chunk_restore	persist.cpp	/^static int persist__msg_store_chunk_restore(struct mosquitto_db *db, FILE *db_fptr)$/;"	f	file:
+persist__restore	persist.cpp	/^int persist__restore(struct mosquitto_db *db)$/;"	f
+persist__restore_sub	persist.cpp	/^static int persist__restore_sub(struct mosquitto_db *db, const char *client_id, const char *sub, int qos)$/;"	f	file:
+persist__retain_chunk_restore	persist.cpp	/^static int persist__retain_chunk_restore(struct mosquitto_db *db, FILE *db_fptr)$/;"	f	file:
+persist__sub_chunk_restore	persist.cpp	/^static int persist__sub_chunk_restore(struct mosquitto_db *db, FILE *db_fptr)$/;"	f	file:
+persist__subs_retain_write	persist.cpp	/^static int persist__subs_retain_write(struct mosquitto_db *db, FILE *db_fptr, struct mosquitto__subhier *node, const char *topic, int level)$/;"	f	file:
+persist__subs_retain_write_all	persist.cpp	/^static int persist__subs_retain_write_all(struct mosquitto_db *db, FILE *db_fptr)$/;"	f	file:
+persistence	mosquitto_broker_internal.h	/^	bool persistence;$/;"	m	struct:mosquitto__config
+persistence_changes	mosquitto_broker_internal.h	/^	int persistence_changes;$/;"	m	struct:mosquitto_db
+persistence_file	mosquitto_broker_internal.h	/^	char *persistence_file;$/;"	m	struct:mosquitto__config
+persistence_filepath	mosquitto_broker_internal.h	/^	char *persistence_filepath;$/;"	m	struct:mosquitto__config
+persistence_location	mosquitto_broker_internal.h	/^	char *persistence_location;$/;"	m	struct:mosquitto__config
+persistent_client_expiration	mosquitto_broker_internal.h	/^	time_t persistent_client_expiration;$/;"	m	struct:mosquitto__config
+pid_file	mosquitto_broker_internal.h	/^	char *pid_file;$/;"	m	struct:mosquitto__config
+plugin	mosquitto_broker_internal.h	/^	struct mosquitto__auth_plugin plugin;$/;"	m	struct:mosquitto__auth_plugin_config	typeref:struct:mosquitto__auth_plugin_config::mosquitto__auth_plugin
+plugin_cleanup_v2	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_cleanup_v2 plugin_cleanup_v2;$/;"	m	struct:mosquitto__auth_plugin
+plugin_cleanup_v3	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_cleanup_v3 plugin_cleanup_v3;$/;"	m	struct:mosquitto__auth_plugin
+plugin_init_v2	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_init_v2 plugin_init_v2;$/;"	m	struct:mosquitto__auth_plugin
+plugin_init_v3	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_init_v3 plugin_init_v3;$/;"	m	struct:mosquitto__auth_plugin
+plugin_version	mosquitto_broker_internal.h	/^	int (*plugin_version)(void);$/;"	m	struct:mosquitto__auth_plugin
+port	mosquitto_broker_internal.h	/^	int port;$/;"	m	struct:bridge_address
+port	mosquitto_broker_internal.h	/^	uint16_t port;$/;"	m	struct:mosquitto__listener
+prev	deps/uthash.h	/^   void *prev;                       \/* prev element in app order      *\/$/;"	m	struct:UT_hash_handle
+prev	mosquitto_broker_internal.h	/^	struct mosquitto__subleaf *prev;$/;"	m	struct:mosquitto__subleaf	typeref:struct:mosquitto__subleaf::mosquitto__subleaf
+prev	mosquitto_broker_internal.h	/^	struct mosquitto_msg_store *prev;$/;"	m	struct:mosquitto_msg_store	typeref:struct:mosquitto_msg_store::mosquitto_msg_store
+primary_retry	mosquitto_broker_internal.h	/^	time_t primary_retry;$/;"	m	struct:mosquitto__bridge
+primary_retry_sock	mosquitto_broker_internal.h	/^	mosq_sock_t primary_retry_sock;$/;"	m	struct:mosquitto__bridge
+print_db_client	db_dump/db_dump.cpp	/^print_db_client(struct db_client *client, int length)$/;"	f	file:
+print_db_client_msg	db_dump/db_dump.cpp	/^print_db_client_msg(struct db_client_msg *msg, int length)$/;"	f	file:
+print_db_msg	db_dump/db_dump.cpp	/^print_db_msg(struct db_msg *msg, int length)$/;"	f	file:
+print_db_sub	db_dump/db_dump.cpp	/^print_db_sub(struct db_sub *sub, int length)$/;"	f	file:
+print_usage	conf.cpp	/^static void print_usage(void)$/;"	f	file:
+print_usage	mosquitto_passwd.cpp	/^void print_usage(void)$/;"	f
+protocol	mosquitto_broker_internal.h	/^	enum mosquitto_protocol protocol;$/;"	m	struct:mosquitto__listener	typeref:enum:mosquitto__listener::mosquitto_protocol
+protocol_version	mosquitto_broker_internal.h	/^	enum mosquitto__protocol protocol_version;$/;"	m	struct:mosquitto__bridge	typeref:enum:mosquitto__bridge::mosquitto__protocol
+protocols	websockets.cpp	/^static struct libwebsocket_protocols protocols[] = {$/;"	v	typeref:struct:libwebsocket_protocols	file:
+psk__file_parse	security_default.cpp	/^static int psk__file_parse(struct mosquitto_db *db, struct mosquitto__unpwd **psk_id, const char *psk_file)$/;"	f	file:
+psk_file	mosquitto_broker_internal.h	/^	char *psk_file;$/;"	m	struct:mosquitto__security_options
+psk_hint	mosquitto_broker_internal.h	/^	char *psk_hint;$/;"	m	struct:mosquitto__listener
+psk_id	mosquitto_broker_internal.h	/^	struct mosquitto__unpwd *psk_id;$/;"	m	struct:mosquitto__listener	typeref:struct:mosquitto__listener::mosquitto__unpwd
+psk_id	mosquitto_broker_internal.h	/^	struct mosquitto__unpwd *psk_id;$/;"	m	struct:mosquitto_db	typeref:struct:mosquitto_db::mosquitto__unpwd
+psk_key_get_v2	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_psk_key_get_v2 psk_key_get_v2;$/;"	m	struct:mosquitto__auth_plugin
+psk_key_get_v3	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_psk_key_get_v3 psk_key_get_v3;$/;"	m	struct:mosquitto__auth_plugin
+psk_server_callback	net.cpp	/^static unsigned int psk_server_callback(SSL *ssl, const char *identity, unsigned char *psk, unsigned int max_psk_len)$/;"	f	file:
+ptr	mosquitto_broker_internal.h	/^	char *ptr;$/;"	m	union:__anon2
+ptr	mosquitto_broker_internal.h	/^	void *ptr;$/;"	m	union:__anon1
+pw__digest	security_default.cpp	/^int pw__digest(const char *password, const unsigned char *salt, unsigned int salt_len, unsigned char *hash, unsigned int *hash_len)$/;"	f
+pwfile__parse	security_default.cpp	/^static int pwfile__parse(const char *file, struct mosquitto__unpwd **root)$/;"	f	file:
+qos	db_dump/db_dump.cpp	/^	uint8_t qos, retain, direction, state, dup;$/;"	m	struct:db_client_msg	file:
+qos	db_dump/db_dump.cpp	/^	uint8_t qos, retain;$/;"	m	struct:db_msg	file:
+qos	db_dump/db_dump.cpp	/^	uint8_t qos;$/;"	m	struct:db_sub	file:
+qos	mosquitto_broker_internal.h	/^	int qos;$/;"	m	struct:mosquitto__bridge_topic
+qos	mosquitto_broker_internal.h	/^	int qos;$/;"	m	struct:mosquitto__subleaf
+qos	mosquitto_broker_internal.h	/^	uint8_t qos;$/;"	m	struct:mosquitto_client_msg
+qos	mosquitto_broker_internal.h	/^	uint8_t qos;$/;"	m	struct:mosquitto_msg_store
+qos	mosquitto_plugin.h	/^	int qos;$/;"	m	struct:mosquitto_acl_msg
+queue_qos0_messages	mosquitto_broker_internal.h	/^	bool queue_qos0_messages;$/;"	m	struct:mosquitto__config
+read_e	persist.h	32;"	d
+ref_count	mosquitto_broker_internal.h	/^	int ref_count;$/;"	m	struct:mosquitto_msg_store
+remote_clientid	mosquitto_broker_internal.h	/^	char *remote_clientid;$/;"	m	struct:mosquitto__bridge
+remote_password	mosquitto_broker_internal.h	/^	char *remote_password;$/;"	m	struct:mosquitto__bridge
+remote_prefix	mosquitto_broker_internal.h	/^	char *remote_prefix;$/;"	m	struct:mosquitto__bridge_topic
+remote_topic	mosquitto_broker_internal.h	/^	char *remote_topic; \/* topic prefixed with remote_prefix *\/$/;"	m	struct:mosquitto__bridge_topic
+remote_username	mosquitto_broker_internal.h	/^	char *remote_username;$/;"	m	struct:mosquitto__bridge
+require_certificate	mosquitto_broker_internal.h	/^	bool require_certificate;$/;"	m	struct:mosquitto__listener
+restart_t	mosquitto_broker_internal.h	/^	time_t restart_t;$/;"	m	struct:mosquitto__bridge
+restart_timeout	mosquitto_broker_internal.h	/^	int restart_timeout;$/;"	m	struct:mosquitto__bridge
+restore_privileges	mosquitto.cpp	/^int restore_privileges(void)$/;"	f
+retain	db_dump/db_dump.cpp	/^	uint8_t qos, retain, direction, state, dup;$/;"	m	struct:db_client_msg	file:
+retain	db_dump/db_dump.cpp	/^	uint8_t qos, retain;$/;"	m	struct:db_msg	file:
+retain	mosquitto_broker_internal.h	/^	bool retain;$/;"	m	struct:mosquitto_client_msg
+retain	mosquitto_broker_internal.h	/^	bool retain;$/;"	m	struct:mosquitto_msg_store
+retain	mosquitto_plugin.h	/^	bool retain;$/;"	m	struct:mosquitto_acl_msg
+retain__process	subs.cpp	/^static int retain__process(struct mosquitto_db *db, struct mosquitto_msg_store *retained, struct mosquitto *context, const char *sub, int sub_qos)$/;"	f	file:
+retain__search	subs.cpp	/^static int retain__search(struct mosquitto_db *db, struct mosquitto__subhier *subhier, struct sub__token *tokens, struct mosquitto *context, const char *sub, int sub_qos, int level)$/;"	f	file:
+retained	mosquitto_broker_internal.h	/^	struct mosquitto_msg_store *retained;$/;"	m	struct:mosquitto__subhier	typeref:struct:mosquitto__subhier::mosquitto_msg_store
+retained_count	mosquitto_broker_internal.h	/^	int retained_count;$/;"	m	struct:mosquitto_db
+round_robin	mosquitto_broker_internal.h	/^	bool round_robin;$/;"	m	struct:mosquitto__bridge
+run	mosquitto.cpp	/^int run;$/;"	v
+salt	mosquitto_broker_internal.h	/^	unsigned char *salt;$/;"	m	struct:mosquitto__unpwd
+salt_len	mosquitto_broker_internal.h	/^	unsigned int salt_len;$/;"	m	struct:mosquitto__unpwd
+security__cleanup_single	security.cpp	/^static int security__cleanup_single(struct mosquitto__security_options *opts, bool reload)$/;"	f	file:
+security__init_single	security.cpp	/^static int security__init_single(struct mosquitto__security_options *opts, bool reload)$/;"	f	file:
+security__load_v2	security.cpp	/^int security__load_v2(struct mosquitto_db *db, struct mosquitto__auth_plugin *plugin, struct mosquitto_auth_opt *auth_options, int auth_option_count, void *lib)$/;"	f
+security__load_v3	security.cpp	/^int security__load_v3(struct mosquitto_db *db, struct mosquitto__auth_plugin *plugin, struct mosquitto_opt *auth_options, int auth_option_count, void *lib)$/;"	f
+security__module_cleanup_single	security.cpp	/^static void security__module_cleanup_single(struct mosquitto__security_options *opts)$/;"	f	file:
+security__module_init_single	security.cpp	/^static int security__module_init_single(struct mosquitto_db *db, struct mosquitto__security_options *opts)$/;"	f	file:
+security_cleanup_v2	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_security_cleanup_v2 security_cleanup_v2;$/;"	m	struct:mosquitto__auth_plugin
+security_cleanup_v3	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_security_cleanup_v3 security_cleanup_v3;$/;"	m	struct:mosquitto__auth_plugin
+security_init_v2	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_security_init_v2 security_init_v2;$/;"	m	struct:mosquitto__auth_plugin
+security_init_v3	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_security_init_v3 security_init_v3;$/;"	m	struct:mosquitto__auth_plugin
+security_options	mosquitto_broker_internal.h	/^	struct mosquitto__security_options security_options;$/;"	m	struct:mosquitto__config	typeref:struct:mosquitto__config::mosquitto__security_options
+security_options	mosquitto_broker_internal.h	/^	struct mosquitto__security_options security_options;$/;"	m	struct:mosquitto__listener	typeref:struct:mosquitto__listener::mosquitto__security_options
+send__connack	send_connack.cpp	/^int send__connack(struct mosquitto *context, int ack, int result)$/;"	f
+send__suback	send_suback.cpp	/^int send__suback(struct mosquitto *context, uint16_t mid, uint32_t payloadlen, const void *payload)$/;"	f
+service_handle	service.cpp	/^SERVICE_STATUS_HANDLE service_handle = 0;$/;"	v
+service_handler	service.cpp	/^void __stdcall service_handler(DWORD fdwControl)$/;"	f
+service_install	service.cpp	/^void service_install(void)$/;"	f
+service_main	service.cpp	/^void __stdcall service_main(DWORD dwArgc, LPTSTR *lpszArgv)$/;"	f
+service_run	service.cpp	/^void service_run(void)$/;"	f
+service_status	service.cpp	/^static SERVICE_STATUS service_status;$/;"	v	file:
+service_uninstall	service.cpp	/^void service_uninstall(void)$/;"	f
+set_tcp_nodelay	mosquitto_broker_internal.h	/^	bool set_tcp_nodelay;$/;"	m	struct:mosquitto__config
+signature	deps/uthash.h	/^   uint32_t signature; \/* used only to find hash tables in external analysis *\/$/;"	m	struct:UT_hash_table
+snprintf	mosquitto_passwd.cpp	41;"	d	file:
+sock_count	mosquitto_broker_internal.h	/^	int sock_count;$/;"	m	struct:mosquitto__listener
+socks	mosquitto_broker_internal.h	/^	mosq_sock_t *socks;$/;"	m	struct:mosquitto__listener
+source_id	db_dump/db_dump.cpp	/^	char *source_id;$/;"	m	struct:db_msg	file:
+source_id	mosquitto_broker_internal.h	/^	char *source_id;$/;"	m	struct:mosquitto_msg_store
+source_mid	db_dump/db_dump.cpp	/^	uint16_t source_mid, mid;$/;"	m	struct:db_msg	file:
+source_mid	mosquitto_broker_internal.h	/^	uint16_t source_mid;$/;"	m	struct:mosquitto_msg_store
+spare_sock	net.cpp	/^static mosq_sock_t spare_sock = INVALID_SOCKET;$/;"	v	file:
+ssl_ctx	mosquitto_broker_internal.h	/^	SSL_CTX *ssl_ctx;$/;"	m	struct:mosquitto__listener
+start_type	mosquitto_broker_internal.h	/^	enum mosquitto_bridge_start_type start_type;$/;"	m	struct:mosquitto__bridge	typeref:enum:mosquitto__bridge::mosquitto_bridge_start_type
+state	db_dump/db_dump.cpp	/^	uint8_t qos, retain, direction, state, dup;$/;"	m	struct:db_client_msg	file:
+state	mosquitto_broker_internal.h	/^	enum mosquitto_msg_state state;$/;"	m	struct:mosquitto_client_msg	typeref:enum:mosquitto_client_msg::mosquitto_msg_state
+stats	db_dump/db_dump.cpp	/^static int stats = 0;$/;"	v	file:
+store	mosquitto_broker_internal.h	/^	struct mosquitto_msg_store *store;$/;"	m	struct:mosquitto_client_msg	typeref:struct:mosquitto_client_msg::mosquitto_msg_store
+store	mosquitto_broker_internal.h	/^	struct mosquitto_msg_store *store;$/;"	m	struct:mosquitto_msg_store_load	typeref:struct:mosquitto_msg_store_load::mosquitto_msg_store
+store_id	db_dump/db_dump.cpp	/^	dbid_t store_id;$/;"	m	struct:db_client_msg	file:
+store_id	db_dump/db_dump.cpp	/^	dbid_t store_id;$/;"	m	struct:db_msg	file:
+store_id	db_dump/db_dump.cpp	/^	dbid_t store_id;$/;"	m	struct:msg_store_chunk	file:
+strcasecmp_p	conf_includedir.cpp	/^int strcasecmp_p(const void *p1, const void *p2)$/;"	f
+sub__add	subs.cpp	/^int sub__add(struct mosquitto_db *db, struct mosquitto *context, const char *sub, int qos, struct mosquitto__subhier **root)$/;"	f
+sub__add_hier_entry	subs.cpp	/^struct mosquitto__subhier *sub__add_hier_entry(struct mosquitto__subhier *parent, struct mosquitto__subhier **sibling, const char *topic, size_t len)$/;"	f
+sub__add_recurse	subs.cpp	/^static int sub__add_recurse(struct mosquitto_db *db, struct mosquitto *context, int qos, struct mosquitto__subhier *subhier, struct sub__token *tokens)$/;"	f	file:
+sub__clean_session	subs.cpp	/^int sub__clean_session(struct mosquitto_db *db, struct mosquitto *context)$/;"	f
+sub__messages_queue	subs.cpp	/^int sub__messages_queue(struct mosquitto_db *db, const char *source_id, const char *topic, int qos, int retain, struct mosquitto_msg_store **stored)$/;"	f
+sub__remove	subs.cpp	/^int sub__remove(struct mosquitto_db *db, struct mosquitto *context, const char *sub, struct mosquitto__subhier *root)$/;"	f
+sub__remove_recurse	subs.cpp	/^static int sub__remove_recurse(struct mosquitto_db *db, struct mosquitto *context, struct mosquitto__subhier *subhier, struct sub__token *tokens)$/;"	f	file:
+sub__retain_queue	subs.cpp	/^int sub__retain_queue(struct mosquitto_db *db, struct mosquitto *context, const char *sub, int sub_qos)$/;"	f
+sub__search	subs.cpp	/^static void sub__search(struct mosquitto_db *db, struct mosquitto__subhier *subhier, struct sub__token *tokens, const char *source_id, const char *topic, int qos, int retain, struct mosquitto_msg_store *stored, bool set_retain)$/;"	f	file:
+sub__token	subs.cpp	/^struct sub__token {$/;"	s	file:
+sub__topic_append	subs.cpp	/^static struct sub__token *sub__topic_append(struct sub__token **tail, struct sub__token **topics, char *topic)$/;"	f	file:
+sub__topic_tokenise	subs.cpp	/^static int sub__topic_tokenise(const char *subtopic, struct sub__token **topics)$/;"	f	file:
+sub__topic_tokens_free	subs.cpp	/^static void sub__topic_tokens_free(struct sub__token *tokens)$/;"	f	file:
+sub__tree_print	subs.cpp	/^void sub__tree_print(struct mosquitto__subhier *root, int level)$/;"	f
+subhier_clean	database.cpp	/^static void subhier_clean(struct mosquitto_db *db, struct mosquitto__subhier **subhier)$/;"	f	file:
+subs	mosquitto_broker_internal.h	/^	struct mosquitto__subhier *subs;$/;"	m	struct:mosquitto_db	typeref:struct:mosquitto_db::mosquitto__subhier
+subs	mosquitto_broker_internal.h	/^	struct mosquitto__subleaf *subs;$/;"	m	struct:mosquitto__subhier	typeref:struct:mosquitto__subhier::mosquitto__subleaf
+subs__process	subs.cpp	/^static int subs__process(struct mosquitto_db *db, struct mosquitto__subhier *hier, const char *source_id, const char *topic, int qos, int retain, struct mosquitto_msg_store *stored, bool set_retain)$/;"	f	file:
+subscription_count	mosquitto_broker_internal.h	/^	int subscription_count;$/;"	m	struct:mosquitto_db
+subscription_size	db_dump/db_dump.cpp	/^	int subscription_size;$/;"	m	struct:client_chunk	file:
+subscriptions	db_dump/db_dump.cpp	/^	int subscriptions;$/;"	m	struct:client_chunk	file:
+sys_interval	mosquitto_broker_internal.h	/^	int sys_interval;$/;"	m	struct:mosquitto__config
+sys_tree__init	sys_tree.cpp	/^void sys_tree__init(struct mosquitto_db *db)$/;"	f
+sys_tree__update	sys_tree.cpp	/^void sys_tree__update(struct mosquitto_db *db, int interval, time_t start_time)$/;"	f
+sys_tree__update_clients	sys_tree.cpp	/^static void sys_tree__update_clients(struct mosquitto_db *db, char *buf)$/;"	f	file:
+sys_tree__update_memory	sys_tree.cpp	/^static void sys_tree__update_memory(struct mosquitto_db *db, char *buf)$/;"	f	file:
+syslog_h	logging.cpp	/^HANDLE syslog_h;$/;"	v
+tail	deps/uthash.h	/^   struct UT_hash_handle *tail; \/* tail hh in app order, for fast append    *\/$/;"	m	struct:UT_hash_table	typeref:struct:UT_hash_table::UT_hash_handle
+tbl	deps/uthash.h	/^   struct UT_hash_table *tbl;$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_table
+temp__expire_websockets_clients	loop.cpp	/^static void temp__expire_websockets_clients(struct mosquitto_db *db)$/;"	f	file:
+threshold	mosquitto_broker_internal.h	/^	int threshold;$/;"	m	struct:mosquitto__bridge
+timestamp	mosquitto_broker_internal.h	/^	time_t timestamp;$/;"	m	struct:mosquitto_client_msg
+tls_cafile	mosquitto_broker_internal.h	/^	char *tls_cafile;$/;"	m	struct:mosquitto__bridge
+tls_capath	mosquitto_broker_internal.h	/^	char *tls_capath;$/;"	m	struct:mosquitto__bridge
+tls_certfile	mosquitto_broker_internal.h	/^	char *tls_certfile;$/;"	m	struct:mosquitto__bridge
+tls_ex_index_context	net.cpp	/^static int tls_ex_index_context = -1;$/;"	v	file:
+tls_ex_index_listener	net.cpp	/^static int tls_ex_index_listener = -1;$/;"	v	file:
+tls_insecure	mosquitto_broker_internal.h	/^	bool tls_insecure;$/;"	m	struct:mosquitto__bridge
+tls_keyfile	mosquitto_broker_internal.h	/^	char *tls_keyfile;$/;"	m	struct:mosquitto__bridge
+tls_psk	mosquitto_broker_internal.h	/^	char *tls_psk;$/;"	m	struct:mosquitto__bridge
+tls_psk_identity	mosquitto_broker_internal.h	/^	char *tls_psk_identity;$/;"	m	struct:mosquitto__bridge
+tls_version	mosquitto_broker_internal.h	/^	char *tls_version;$/;"	m	struct:mosquitto__bridge
+tls_version	mosquitto_broker_internal.h	/^	char *tls_version;$/;"	m	struct:mosquitto__listener
+tmp_remove_subs	subs.cpp	/^static struct mosquitto__subhier *tmp_remove_subs(struct mosquitto__subhier *sub)$/;"	f	file:
+topic	db_dump/db_dump.cpp	/^	char *topic;$/;"	m	struct:db_msg	file:
+topic	db_dump/db_dump.cpp	/^	char *topic;$/;"	m	struct:db_sub	file:
+topic	mosquitto_broker_internal.h	/^	char *topic;$/;"	m	struct:mosquitto__acl
+topic	mosquitto_broker_internal.h	/^	char *topic;$/;"	m	struct:mosquitto__bridge_topic
+topic	mosquitto_broker_internal.h	/^	char* topic;$/;"	m	struct:mosquitto_msg_store
+topic	mosquitto_broker_internal.h	/^	mosquitto__topic_element_uhpa topic;$/;"	m	struct:mosquitto__subhier
+topic	mosquitto_plugin.h	/^	const char *topic;$/;"	m	struct:mosquitto_acl_msg
+topic	subs.cpp	/^	mosquitto__topic_element_uhpa topic;$/;"	m	struct:sub__token	file:
+topic_count	mosquitto_broker_internal.h	/^	int topic_count;$/;"	m	struct:mosquitto__bridge
+topic_len	mosquitto_broker_internal.h	/^	uint16_t topic_len;$/;"	m	struct:mosquitto__subhier
+topic_len	subs.cpp	/^	uint16_t topic_len;$/;"	m	struct:sub__token	file:
+topic_remapping	mosquitto_broker_internal.h	/^	bool topic_remapping;$/;"	m	struct:mosquitto__bridge
+topics	mosquitto_broker_internal.h	/^	struct mosquitto__bridge_topic *topics;$/;"	m	struct:mosquitto__bridge	typeref:struct:mosquitto__bridge::mosquitto__bridge_topic
+true	mosquitto_passwd.cpp	35;"	d	file:
+try_private	mosquitto_broker_internal.h	/^	bool try_private;$/;"	m	struct:mosquitto__bridge
+try_private_accepted	mosquitto_broker_internal.h	/^	bool try_private_accepted;$/;"	m	struct:mosquitto__bridge
+ucount	mosquitto_broker_internal.h	/^	int ucount;$/;"	m	struct:mosquitto__acl
+uhpa_free	mosquitto_broker_internal.h	55;"	d
+uhpa_free	uhpa.h	129;"	d
+uhpa_malloc	mosquitto_broker_internal.h	54;"	d
+uhpa_malloc	uhpa.h	125;"	d
+uint32_t	deps/uthash.h	/^typedef unsigned int uint32_t;$/;"	t
+uint8_t	deps/uthash.h	/^typedef unsigned char uint8_t;$/;"	t
+unpwd	mosquitto_broker_internal.h	/^	struct mosquitto__unpwd *unpwd;$/;"	m	struct:mosquitto__listener	typeref:struct:mosquitto__listener::mosquitto__unpwd
+unpwd	mosquitto_broker_internal.h	/^	struct mosquitto__unpwd *unpwd;$/;"	m	struct:mosquitto_db	typeref:struct:mosquitto_db::mosquitto__unpwd
+unpwd__cleanup	security_default.cpp	/^static int unpwd__cleanup(struct mosquitto__unpwd **root, bool reload)$/;"	f	file:
+unpwd__file_parse	security_default.cpp	/^static int unpwd__file_parse(struct mosquitto__unpwd **unpwd, const char *password_file)$/;"	f	file:
+unpwd_check_v2	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_unpwd_check_v2 unpwd_check_v2;$/;"	m	struct:mosquitto__auth_plugin
+unpwd_check_v3	mosquitto_broker_internal.h	/^	FUNC_auth_plugin_unpwd_check_v3 unpwd_check_v3;$/;"	m	struct:mosquitto__auth_plugin
+update_file	mosquitto_passwd.cpp	/^int update_file(FILE *fptr, FILE *ftmp)$/;"	f
+update_pwuser	mosquitto_passwd.cpp	/^int update_pwuser(FILE *fptr, FILE *ftmp, const char *username, const char *password)$/;"	f
+upgrade_outgoing_qos	mosquitto_broker_internal.h	/^	bool upgrade_outgoing_qos;$/;"	m	struct:mosquitto__config
+use_identity_as_username	mosquitto_broker_internal.h	/^	bool use_identity_as_username;$/;"	m	struct:mosquitto__listener
+use_subject_as_username	mosquitto_broker_internal.h	/^	bool use_subject_as_username;$/;"	m	struct:mosquitto__listener
+use_username_as_clientid	mosquitto_broker_internal.h	/^	bool use_username_as_clientid;$/;"	m	struct:mosquitto__listener
+user	mosquitto_broker_internal.h	/^	char *user;$/;"	m	struct:mosquitto__config
+user_data	mosquitto_broker_internal.h	/^	void *user_data;$/;"	m	struct:mosquitto__auth_plugin
+username	mosquitto_broker_internal.h	/^	char *username;$/;"	m	struct:mosquitto__acl_user
+username	mosquitto_broker_internal.h	/^	char *username;$/;"	m	struct:mosquitto__unpwd
+uthash_expand_fyi	deps/uthash.h	83;"	d
+uthash_fatal	deps/uthash.h	70;"	d
+uthash_free	deps/uthash.h	76;"	d
+uthash_malloc	deps/uthash.h	73;"	d
+uthash_noexpand_fyi	deps/uthash.h	80;"	d
+value	mosquitto_plugin.h	/^	char *value;$/;"	m	struct:mosquitto_auth_opt
+value	mosquitto_plugin.h	/^	char *value;$/;"	m	struct:mosquitto_opt
+verbose	mosquitto_broker_internal.h	/^	bool verbose;$/;"	m	struct:mosquitto_db
+version	mosquitto_broker_internal.h	/^	int version;$/;"	m	struct:mosquitto__auth_plugin
+websockets_log_level	mosquitto_broker_internal.h	/^	int websockets_log_level;$/;"	m	struct:mosquitto__config
+write_e	persist.h	33;"	d
+ws_context	mosquitto_broker_internal.h	/^	struct libwebsocket_context *ws_context;$/;"	m	struct:mosquitto__listener	typeref:struct:mosquitto__listener::libwebsocket_context
+ws_protocol	mosquitto_broker_internal.h	/^	struct libwebsocket_protocols *ws_protocol;$/;"	m	struct:mosquitto__listener	typeref:struct:mosquitto__listener::libwebsocket_protocols
