@@ -4,4 +4,8 @@
 #compile(build) output files
 *.o
 *.so
+*.so.1
 *.dylib
+client/mosquitto_pub
+client/mosquitto_sub
+src/mosquitto
