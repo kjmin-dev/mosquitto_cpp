@@ -56,6 +56,10 @@ using namespace std;
 #include "memory_mosq.h"
 #include "util_mosq.h"
 
+#include "tinyxml2.h"
+
+using namespace tinyxml2;
+
 struct sub__token {
 	struct sub__token *next;
 	mosquitto__topic_element_uhpa topic;
@@ -70,9 +74,15 @@ static int subs__process(struct mosquitto_db *db, struct mosquitto__subhier *hie
 	uint16_t mid;
 	struct mosquitto__subleaf *leaf;
 	bool client_retain;
-
+	int chk = strstr(topic, "SYS")==NULL;
+	
+	if(chk) {
+		XMLDocument doc;
+		XMLElement* elem1 = doc.NewElement("Elem1");
+		doc.InsertEndChild(elem1);
+		doc.Print();
+	}
 	leaf = hier->subs;
-
 	if(retain && set_retain){
 #ifdef WITH_PERSISTENCE
 		if(strncmp(topic, "$SYS", 4)){

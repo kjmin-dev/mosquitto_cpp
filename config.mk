@@ -123,7 +123,7 @@ ifeq ($(UNAME),SunOS)
 		CFLAGS?=-Wall -ggdb -O2
 	endif
 else
-	CFLAGS?=-Wall -ggdb -O2
+	CFLAGS?=-Wall -ggdb -O2 -Wno-write-strings -Wno-sign-compare
 endif
 
 LIB_CFLAGS:=${CFLAGS} ${CPPFLAGS} -I. -I.. -I../lib
@@ -136,7 +136,7 @@ CLIENT_CFLAGS:=${CFLAGS} ${CPPFLAGS} -I.. -I../lib -DVERSION="\"${VERSION}\""
 ifneq ($(or $(findstring $(UNAME),FreeBSD), $(findstring $(UNAME),OpenBSD), $(findstring $(UNAME),NetBSD)),)
 	BROKER_LIBS:=-lm
 else
-	BROKER_LIBS:=-ldl -lm
+	BROKER_LIBS:=-ldl -lm -Wno-write-strings -Wno-sign-compare
 endif
 LIB_LIBS:=
 PASSWD_LIBS:=
