@@ -79,8 +79,14 @@ static int subs__process(struct mosquitto_db *db, struct mosquitto__subhier *hie
 	if(chk) {
 		XMLDocument doc;
 		XMLElement* elem1 = doc.NewElement("Elem1");
+		elem1->SetAttribute("test", 1);
+		elem1->SetText("abc");
 		doc.InsertEndChild(elem1);
-		doc.Print();
+		doc.Print();		
+		char *aaa = "<root><abc></abc></root>";
+		XMLDocument doc2;
+		doc2.Parse(aaa);
+		doc2.Print();
 	}
 	leaf = hier->subs;
 	if(retain && set_retain){

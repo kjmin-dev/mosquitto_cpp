@@ -66,7 +66,7 @@ WITH_SRV:=no
 
 # Build using libuuid for clientid generation (Linux only - please report if
 # supported on your platform).
-WITH_UUID:=yes
+WITH_UUID:=no
 
 # Build with websockets support on the broker.
 WITH_WEBSOCKETS:=no
@@ -123,7 +123,7 @@ ifeq ($(UNAME),SunOS)
 		CFLAGS?=-Wall -ggdb -O2
 	endif
 else
-	CFLAGS?=-Wall -ggdb -O2 -Wno-write-strings -Wno-sign-compare
+	CFLAGS?=-Wall -ggdb -O2 -Wno-write-strings -Wno-sign-compare -Wno-unused-result
 endif
 
 LIB_CFLAGS:=${CFLAGS} ${CPPFLAGS} -I. -I.. -I../lib
@@ -136,7 +136,7 @@ CLIENT_CFLAGS:=${CFLAGS} ${CPPFLAGS} -I.. -I../lib -DVERSION="\"${VERSION}\""
 ifneq ($(or $(findstring $(UNAME),FreeBSD), $(findstring $(UNAME),OpenBSD), $(findstring $(UNAME),NetBSD)),)
 	BROKER_LIBS:=-lm
 else
-	BROKER_LIBS:=-ldl -lm -Wno-write-strings -Wno-sign-compare
+	BROKER_LIBS:=-ldl -lm -Wno-write-strings -Wno-sign-compare -Wno-unused-result
 endif
 LIB_LIBS:=
 PASSWD_LIBS:=
