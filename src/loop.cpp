@@ -19,7 +19,9 @@ Contributors:
 #include <iostream>
 using namespace std;
 #ifndef WIN32
-#  define _GNU_SOURCE
+	#ifndef _GNU_SOURCE
+		#define _GNU_SOURCE
+	#endif
 #endif
 
 #include <assert.h>

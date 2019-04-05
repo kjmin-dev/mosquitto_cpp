@@ -10,7 +10,8 @@ else
 all : mosquitto
 endif
 
-OBJS=	tinyxml2.o \
+OBJS=	pugixml.o \
+	tinyxml2.o \
 	mosquitto.o \
 		bridge.o \
 		conf.o \
@@ -61,6 +62,8 @@ OBJS=	tinyxml2.o \
 mosquitto : ${OBJS}
 	${CROSS_COMPILE}${CC} $^ -o $@ ${LDFLAGS} $(BROKER_LIBS)
 
+pugixml.o : pugixml.cpp
+	${CROSS_COMPILE}${CC} $(BROKER_CFLAGS) -c $< -o $@
 tinyxml2.o : tinyxml2.cpp
 	${CROSS_COMPILE}${CC} $(BROKER_CFLAGS) -c $< -o $@
 
