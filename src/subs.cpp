@@ -50,15 +50,16 @@ Contributors:
 #include <stdio.h>
 #include <string.h>
 #include <iostream>
-using namespace std;
-
 #include "mosquitto_broker_internal.h"
 #include "memory_mosq.h"
 #include "util_mosq.h"
 
 #include "tinyxml2.h"
+#include "pugixml.hpp"
 
+using namespace std;
 using namespace tinyxml2;
+using namespace pugi;
 
 struct sub__token {
 	struct sub__token *next;
@@ -75,19 +76,10 @@ static int subs__process(struct mosquitto_db *db, struct mosquitto__subhier *hie
 	struct mosquitto__subleaf *leaf;
 	bool client_retain;
 	int chk = strstr(topic, "SYS")==NULL;
-	
+
 	if(chk) {
-		XMLDocument doc;
-		XMLElement* elem1 = doc.NewElement("Elem1");
-		elem1->SetAttribute("test", 1);
-		elem1->SetText("abc");
-		doc.InsertEndChild(elem1);
-		doc.Print();		
-		char *aaa = "<root><abc></abc></root>";
-		XMLDocument doc2;
-		doc2.Parse(aaa);
-		doc2.Print();
 	}
+	
 	leaf = hier->subs;
 	if(retain && set_retain){
 #ifdef WITH_PERSISTENCE
