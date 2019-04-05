@@ -19,6 +19,10 @@ Contributors:
 #include <errno.h>
 #include <stdbool.h>
 
+#include <unistd.h>
+#include <string.h>
+#include <stdio.h>
+
 #include "mosquitto.h"
 #include "mosquitto_internal.h"
 
@@ -37,19 +41,49 @@ struct userdata__simple {
 	bool want_retained;
 };
 
+struct userdata__callback_topics {
+	char **topics;
+    int topic_count;
+	int (*callback)(struct mosquitto *, void *, const struct mosquitto_message *);
+	void *userdata;
+	int qos;
+	int rc;
+};
+
 
 static void on_connect(struct mosquitto *mosq, void *obj, int rc)
 {
-	struct userdata__callback *userdata = (struct userdata__callback*)  obj;
+	struct userdata__callback *userdata = (struct userdata__callback*)obj;
 
 	mosquitto_subscribe(mosq, NULL, userdata->topic, userdata->qos);
 }
 
+static void on_connect_topics(struct mosquitto *mosq, void *obj, int rc)
+{
+	struct userdata__callback_topics *userdata = (struct userdata__callback_topics*)obj;
+    int i;
+
+    for (i = 0; i < userdata->topic_count; i++ ) { 
+        mosquitto_subscribe(mosq, NULL, userdata->topics[i], userdata->qos);
+    }
+
+}
 
 static void on_message_callback(struct mosquitto *mosq, void *obj, const struct mosquitto_message *message)
 {
 	int rc;
-	struct userdata__callback *userdata = (struct userdata__callback*) obj;
+	struct userdata__callback *userdata = (struct userdata__callback*)obj;
+
+	rc = userdata->callback(mosq, userdata->userdata, message);
+	if(rc){
+		mosquitto_disconnect(mosq);
+	}
+}
+
+static void on_message_callback_topics(struct mosquitto *mosq, void *obj, const struct mosquitto_message *message)
+{
+	int rc;
+	struct userdata__callback_topics *userdata = (struct userdata__callback_topics*)obj;
 
 	rc = userdata->callback(mosq, userdata->userdata, message);
 	if(rc){
@@ -59,7 +93,7 @@ static void on_message_callback(struct mosquitto *mosq, void *obj, const struct 
 
 static int on_message_simple(struct mosquitto *mosq, void *obj, const struct mosquitto_message *message)
 {
-	struct userdata__simple *userdata = (struct userdata__simple*) obj;
+	struct userdata__simple *userdata = (struct userdata__simple*)obj;
 	int rc;
 
 	if(userdata->max_msg_count == 0){
@@ -111,7 +145,7 @@ libmosq_EXPORT int mosquitto_subscribe_simple(
 
 	*messages = NULL;
 
-	userdata.messages = (struct mosquitto_message*) calloc(sizeof(struct mosquitto_message), msg_count);
+	userdata.messages = (struct mosquitto_message*)calloc(sizeof(struct mosquitto_message), msg_count);
 	if(!userdata.messages){
 		return MOSQ_ERR_NOMEM;
 	}
@@ -223,3 +257,107 @@ libmosq_EXPORT int mosquitto_subscribe_callback(
 	return MOSQ_ERR_SUCCESS;
 }
 
+libmosq_EXPORT int mosquitto_subscribe_callback_topics(
+		int (*callback)(struct mosquitto *, void *, const struct mosquitto_message *),
+		void *userdata,
+		char **topics,
+        int topic_count,
+		int qos,
+		const char *host,
+		int port,
+		const char *client_id,
+		int keepalive,
+		bool clean_session,
+		const char *username,
+		const char *password,
+		const struct libmosquitto_will *will,
+		const struct libmosquitto_tls *tls)
+{
+	struct mosquitto *mosq;
+	struct userdata__callback_topics cb_userdata;
+	int rc;
+
+    int pid;
+
+	if(!callback || !topics){
+		return MOSQ_ERR_INVAL;
+	}
+
+	cb_userdata.topics = topics;
+	cb_userdata.topic_count = topic_count;
+	cb_userdata.qos = qos;
+	cb_userdata.rc = 0;
+	cb_userdata.userdata = userdata;
+	cb_userdata.callback = callback;
+
+	mosq = mosquitto_new(client_id, clean_session, &cb_userdata);
+	if(!mosq){
+		return MOSQ_ERR_NOMEM;
+	}
+
+	if(will){
+		rc = mosquitto_will_set(mosq, will->topic, will->payloadlen, will->payload, will->qos, will->retain);
+		if(rc){
+			mosquitto_destroy(mosq);
+			return rc;
+		}
+	}
+	if(username){
+		rc = mosquitto_username_pw_set(mosq, username, password);
+		if(rc){
+			mosquitto_destroy(mosq);
+			return rc;
+		}
+	}
+	if(tls){
+		rc = mosquitto_tls_set(mosq, tls->cafile, tls->capath, tls->certfile, tls->keyfile, tls->pw_callback);
+		if(rc){
+			mosquitto_destroy(mosq);
+			return rc;
+		}
+		rc = mosquitto_tls_opts_set(mosq, tls->cert_reqs, tls->tls_version, tls->ciphers);
+		if(rc){
+			mosquitto_destroy(mosq);
+			return rc;
+		}
+	}
+
+	mosquitto_connect_callback_set(mosq, on_connect_topics);
+	mosquitto_message_callback_set(mosq, on_message_callback_topics);
+
+	rc = mosquitto_connect(mosq, host, port, keepalive);
+	if(rc){
+		mosquitto_destroy(mosq);
+		return rc;
+	}
+    
+
+    pid = fork();
+
+    if ( 0 == pid ) {
+        /*
+        int topic_integer = 0;
+        char topic_buf[255];
+        while (true) {
+            sleep(2);
+            sprintf(topic_buf ,"/test/%d", topic_integer); 
+			mosquitto_subscribe(mosq, NULL, topic_buf, qos); 
+            topic_integer++;
+        }
+        */
+    }
+    else {
+        rc = mosquitto_loop_forever(mosq, -1, 1);
+        mosquitto_destroy(mosq);
+        if(cb_userdata.rc){
+            rc = cb_userdata.rc;
+        } 
+    }
+
+	//if(!rc && cb_userdata.max_msg_count == 0){
+		//return MOSQ_ERR_SUCCESS;
+	//}else{
+		//return rc;
+	//}
+	return MOSQ_ERR_SUCCESS;
+}
